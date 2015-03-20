@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Time</string>
+  <string-array name="suggestion_string">
+    </string-array>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">Συνέχιση</string>
+  <string name="timer_pause">Παύση</string>
+  <string name="dialog_title">Χρονόμετρο</string>
+  <string name="dialog_message">Ο χρόνος έληξε</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Άκυρο</string>
+  <string name="edit_alarm_dialog_title">Αφαίρεση ειδοποιήσεων</string>
+  <string name="edit_alarm_dialog_message">Αφαίρεση επιλεγμένων ειδοποιήσεων;</string>
+  <string name="alarm_switch">Ενεργοποίηση ειδοποίησης</string>
+  <string name="alarm_time">Ώρα</string>
+  <string name="asus_alarm_repeat">Επανάληψη</string>
+  <string name="alarm_ring">Ήχος κλήσης</string>
+  <string name="asus_alarm_vibrate">Δόνηση</string>
+  <string name="alarm_label">Ετικέτα</string>
+  <string name="onoff_voiceagent">Αναφορά ώρας</string>
+  <string name="onoff_voiceagent_summary">Αναφέρετε τον χρόνο όταν ηχήσει ο συναγερμός</string>
+  <string name="ring_gently">απαλό κουδούνισμα</string>
+  <string name="edit_ringtone">Επεξεργασία κουδουνίσματος</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">Επεξεργασία παγκόσμιου ρολογιού</string>
+  <string name="local_time">(Τοπική ώρα)</string>
+  <string name="find_cities">Εύρεση πόλεων</string>
+  <string name="search_or_add_city">αναζήτηση ή προσθήκη πόλης</string>
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">Επεξεργασία πόλεων</string>
+  <string name="clear_all">Απαλοιφή</string>
+  <string name="alarm_dir">Ήχος κουδουνίσματος συναγερμού</string>
+  <string name="music_dir">Μουσική</string>
+  <string name="city_found">βρέθηκε πόλη</string>
+  <string name="cities_found">βρέθηκαν πόλεις</string>
+  <string name="no_result_found">Κανένα αποτέλεσμα</string>
+  <string name="set_time_title">Ρύθμιση ώρας</string>
+  <string name="week_days">Καθημερινές</string>
+  <string name="week_end">Σαββατοκύριακα</string>
+  <string name="ring_gently_summary">Η ένταση ξυπνητηριού αυξάνεται με το πέρασμα του χρόνου</string>
+  <string name="ring_none">Κανένα</string>
+  <string name="paper_folding_widge">Απλή ανανέωση</string>
+  <string name="time_roller_widget">Κύλιση Ώρας</string>
+  <string name="day_night_widget">Ήλιος Φεγγάρι</string>
+  <string name="rainbow_widget_label">Ουράνιο Τόξο</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Επιλέξτε πόλη</string>
+  <string name="actiobar_more">Περισσότερα</string>
+  <string name="actiobar_search">Αναζήτηση</string>
+  <string name="actionbar_add_city">Προσθήκη πόλης</string>
+  <!--new translations 2014-3-13 -->
+  <string name="total_time">συνολικός χρόνος</string>
+  <string name="current_lap">τρέχων γύρος</string>
+  <string name="by_day">Κατά ημέρα</string>
+  <string name="never_alert">Το ξυπνητήρι έχει οριστεί να μην ειδοποιεί ποτέ.</string>
+  <string name="zone_list_menu_sort_alphabetically">Ταξινόμηση αλφαβητικά</string>
+  <string name="zone_list_menu_sort_by_timezone">Ταξινόμηση ανά ζώνη ώρας</string>
+  <string name="zone_picker">Επιλέξτε ζώνη ώρας</string>
+  <string name="time_up_within">Λήξη χρόνου εντός</string>
+  <string name="press_the_lap_button">Πατήτσε το κουμπί \"Γύρος\" για να καταγραφεί ο ακριβής χρόνος για κάθε γύρο.</string>
+  <string name="press_the_start_button">Πατήστε το κουμπί \"Έναρξη\" για να αρχίσει να εκτελείται η χρονομέτρηση.</string>
+  <string name="alarm_alert_tip">Ολισθήστε για Αναβολή ή Ματαίωση</string>
+  <string name="today">Σήμερα</string>
+  <string name="earlier">Νωρίτερα</string>
+  <string name="later">Αργότερα</string>
+  <string name="repeat_once">Μία φορά</string>
+  <string name="repeat_pre">Η επανάληψη αλλάζει σε</string>
+  <string name="select_all">Επιλογή όλων</string>
+  <string name="weekly">Εβδομαδιαία</string>
+</resources>

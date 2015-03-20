@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/day_night_widget"
+    android:configure="com.asus.deskclock.widget.daynight.DayNightWidgetConfigure"
+    android:minWidth="@dimen/widget_min_size"
+    android:minHeight="@dimen/widget_min_size"
+    android:updatePeriodMillis="0"
+    android:previewImage="@drawable/clock_widget_day_night_preview" 
+    android:widgetCategory="home_screen" />

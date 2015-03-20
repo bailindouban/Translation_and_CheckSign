@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+
+<!--
+     These resources are around just to allow their values to be customized
+     for different hardware and product builds.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+        <!-- waylen_wang@asus.com 20140123 start for widget add -->
+    <integer name="clock_medium_weight">365</integer>
+    <integer name="clock_bottom_weight">458</integer>
+    
+    <integer name="alarm_top_weight">330</integer>
+    <integer name="alarm_bottom_weight">549</integer>
+    
+    <integer name="stopwatch_medium_weight">312</integer>
+    <integer name="stopwatch_bottom_weight">511</integer>
+    
+    <!-- alarm -->
+	<dimen name="alarm_clock_top_margin">105dp</dimen>
+	<dimen name="alarm_clock_text_top_margin">120dp</dimen>
+	
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Czas</string>
+  <string-array name="suggestion_string">
+    </string-array>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">Wznów</string>
+  <string name="timer_pause">Pauza</string>
+  <string name="dialog_title">Timer</string>
+  <string name="dialog_message">Czas upłynął</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Anuluj</string>
+  <string name="edit_alarm_dialog_title">Usuń alarmy</string>
+  <string name="edit_alarm_dialog_message">Usunąć wybrane alarmy?</string>
+  <string name="alarm_switch">Włącz alarm</string>
+  <string name="alarm_time">Godzina</string>
+  <string name="asus_alarm_repeat">Powtarzaj</string>
+  <string name="alarm_ring">Dzwonek</string>
+  <string name="asus_alarm_vibrate">Wibracja</string>
+  <string name="alarm_label">Etykieta</string>
+  <string name="onoff_voiceagent">Raportowanie czasu</string>
+  <string name="onoff_voiceagent_summary">Raportuj czas włączenia alarmu</string>
+  <string name="ring_gently">łagodny dźwięk dzwonka</string>
+  <string name="edit_ringtone">Edytuj dzwonek</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">Edytuj zegar światowy</string>
+  <string name="local_time">(Czas lokalny)</string>
+  <string name="find_cities">Znajdź miasta</string>
+  <string name="search_or_add_city">wyszukaj lub dodaj miasto</string>
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">Edytuj miasta</string>
+  <string name="clear_all">Wyczyść</string>
+  <string name="alarm_dir">Dzwonek alarmu</string>
+  <string name="music_dir">Muzyka</string>
+  <string name="city_found">znaleziono miasto</string>
+  <string name="cities_found">znaleziono miasta</string>
+  <string name="no_result_found">Brak wyników</string>
+  <string name="set_time_title">Ustaw godzinę</string>
+  <string name="week_days">Dni tygodnia</string>
+  <string name="week_end">Weekendy</string>
+  <string name="ring_gently_summary">Głośność alarmu stopniowo wzrasta</string>
+  <string name="ring_none">Brak</string>
+  <string name="paper_folding_widge">Zupełna nowość</string>
+  <string name="time_roller_widget">Upływ czasu</string>
+  <string name="day_night_widget">Słońce księżyc</string>
+  <string name="rainbow_widget_label">Tęcza</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Wybierz miasto</string>
+  <string name="actiobar_more">Więcej</string>
+  <string name="actiobar_search">Szukaj</string>
+  <string name="actionbar_add_city">Dodaj miasto</string>
+  <!-- emily -->
+  <string name="total_time">całkowity czas</string>
+  <string name="current_lap">bieżące okrążenie</string>
+  <string name="by_day">Wg dnia</string>
+  <string name="never_alert">Ustawiono wyłączenie alarmu.</string>
+  <string name="zone_list_menu_sort_alphabetically">Sortuj alfabetycznie</string>
+  <string name="zone_list_menu_sort_by_timezone">Sortuj wg strefy czasowej</string>
+  <!-- kim_bai -->
+  <string name="zone_picker">Wybierz strefę czasową</string>
+  <string name="time_up_within">Koniec czasu za</string>
+  <string name="press_the_lap_button">Naciśnij przycisk \"Okrążenie\", aby zarejestrować dokładny czas każdego okrążenia.</string>
+  <string name="press_the_start_button">Naciśnij przycisk \"Start\", aby włączyć stoper.</string>
+  <string name="alarm_alert_tip">Przesuń, aby odłożyć lub odrzucić</string>
+  <string name="today">Dzisiaj</string>
+  <string name="earlier">Wcześniej</string>
+  <string name="later">P&amp;oacute;źniej</string>
+  <string name="repeat_once">Raz</string>
+  <string name="repeat_pre">Powtórz zostało zmienione na</string>
+  <string name="select_all">Zaznacz wszystko</string>
+  <string name="weekly">Co tydzień</string>
+</resources>

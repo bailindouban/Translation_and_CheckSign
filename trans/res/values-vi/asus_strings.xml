@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--      Copyright (C) 2007 The Android Open Source Project       Licensed under the Apache License, Version 2.0 (the "License");      you may not use this file except in compliance with the License.      You may obtain a copy of the License at            http://www.apache.org/licenses/LICENSE-2.0       Unless required by applicable law or agreed to in writing, software      distributed under the License is distributed on an "AS IS" BASIS,      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.      See the License for the specific language governing permissions and      limitations under the License. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Giờ</string>
+  <string-array name="suggestion_string"/>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">Tiếp tục</string>
+  <string name="timer_pause">Tạm dừng</string>
+  <string name="dialog_title">Bộ định giờ</string>
+  <string name="dialog_message">Giờ đã bật</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Hủy</string>
+  <string name="edit_alarm_dialog_title">Xóa báo thức</string>
+  <string name="edit_alarm_dialog_message">Xóa báo thức?</string>
+  <string name="alarm_switch">Bật báo thức</string>
+  <string name="alarm_time">Giờ</string>
+  <string name="asus_alarm_repeat">Lặp lại</string>
+  <string name="alarm_ring">Nhạc chuông</string>
+  <string name="asus_alarm_vibrate">Rung</string>
+  <string name="alarm_label">Nhãn</string>
+  <string name="onoff_voiceagent">Báo giờ</string>
+  <string name="onoff_voiceagent_summary">Báo giờ khi báo thức tắt</string>
+  <string name="ring_gently">Chuông nhỏ</string>
+  <string name="edit_ringtone">Sửa nhạc chuông</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">Sửa đồng hồ thế giới</string>
+  <string name="menu_item_search_city">Thêm</string>
+  <string name="local_time">(Địa phương)</string>
+  <string name="find_cities">Tìm t.phố</string>
+  <string name="search_or_add_city">Tìm hoặc thêm t.phố</string>
+  <string name="edit_cities">Sửa</string>
+  <string name="clear_all">Xóa hết</string>
+  <string name="alarm_dir">Chuông báo thức</string>
+  <string name="music_dir">Nhạc</string>
+  <string name="city_found">tìm thấy t.phố</string>
+  <string name="cities_found">tìm thấy các t.phố</string>
+  <string name="no_result_found">Ko có kết quả</string>
+  <!-- emily -->
+  <string name="set_time_title">Cài giờ</string>
+  <string name="week_days">Ngày trong tuần</string>
+  <string name="week_end">Ngày cuối tuần</string>
+  <string name="ring_gently_summary">Âm lượng báo thức tăng theo thời gian</string>
+  <string name="ring_none">Không có</string>
+  <string name="total_time">tổng sổ giờ</string>
+  <string name="current_lap">vòng chạy h.hành</string>
+  <string name="by_day">Theo ngày</string>
+  <string name="never_alert">Đã cài báo thức ko bao giờ báo.</string>
+  <!-- Widgets -->
+  <string name="paper_folding_widge">Mới tinh</string>
+  <string name="time_roller_widget">Trục giờ</string>
+  <string name="day_night_widget">Mặt trời-Mặt trăng</string>
+  <string name="rainbow_widget_label">Cầu vồng</string>
+  <string name="zone_list_menu_sort_alphabetically">Xếp theo chữ cái</string>
+  <string name="zone_list_menu_sort_by_timezone">Xếp theo múi giờ</string>
+  <string name="worldclock_settings">Chọn 1 t.phố</string>
+  <!-- 20130830 -->
+  <string name="actiobar_more">Khác</string>
+  <string name="actiobar_search">Tìm kiếm</string>
+  <string name="actionbar_add_city">Thêm t.phố</string>
+  <!-- kim_bai -->
+  <string name="zone_picker">Chọn múi giờ</string>
+  <string name="time_up_within">Chỉnh tăng giờ trong</string>
+  <string name="press_the_lap_button">Bấm nút \"Vòng chạy\" để ghi giờ chính xác cho mỗi vòng chạy.</string>
+  <string name="press_the_start_button">Bấm nút \"Bắt đầu\" để khởi chạy đồng hồ bấm giờ.</string>
+  <string name="alarm_alert_tip">Hãy trượt sang Báo lại hoặc Hủy</string>
+  <string name="today">Hôm nay</string>
+  <string name="earlier">Sớm hơn</string>
+  <string name="later">Muộn hơn</string>
+  <string name="repeat_once">Một lần</string>
+  <string name="repeat_pre">Lặp lại được đổi sang</string>
+  <string name="select_all">Chọn tất cả</string>
+  <string name="weekly">Hàng tuần</string>
+</resources>

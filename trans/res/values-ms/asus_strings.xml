@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--      Copyright (C) 2007 The Android Open Source Project       Licensed under the Apache License, Version 2.0 (the "License");      you may not use this file except in compliance with the License.      You may obtain a copy of the License at            http://www.apache.org/licenses/LICENSE-2.0       Unless required by applicable law or agreed to in writing, software      distributed under the License is distributed on an "AS IS" BASIS,      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.      See the License for the specific language governing permissions and      limitations under the License. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Masa</string>
+  <string-array name="suggestion_string"/>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">Sambung semula</string>
+  <string name="timer_pause">Jeda</string>
+  <string name="dialog_title">Pemasa</string>
+  <string name="dialog_message">Masa tamat</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Batal</string>
+  <string name="edit_alarm_dialog_title">Keluarkan penggera</string>
+  <string name="edit_alarm_dialog_message">Keluarkan penggera?</string>
+  <string name="alarm_switch">Hidupkan penggera</string>
+  <string name="alarm_time">Masa</string>
+  <string name="asus_alarm_repeat">Ulang</string>
+  <string name="alarm_ring">Nada dering</string>
+  <string name="asus_alarm_vibrate">Bergetar</string>
+  <string name="alarm_label">Label</string>
+  <string name="onoff_voiceagent">Pelaporan masa</string>
+  <string name="onoff_voiceagent_summary">Laporkan masa apabila penggera berbunyi</string>
+  <string name="ring_gently">Berdering dengan perlahan</string>
+  <string name="edit_ringtone">Edit nada dering</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">Edit jam dunia</string>
+  <string name="menu_item_search_city">Tambah</string>
+  <string name="local_time">(Tempatan)</string>
+  <string name="find_cities">Cari bandar</string>
+  <string name="search_or_add_city">Cari atau tambah bandar</string>
+  <string name="edit_cities">Edit</string>
+  <string name="clear_all">Bersihkan</string>
+  <string name="alarm_dir">Deringan Penggera</string>
+  <string name="music_dir">Muzik</string>
+  <string name="city_found">bandar dijumpai</string>
+  <string name="cities_found">bandar dijumpai</string>
+  <string name="no_result_found">Tiada keputusan</string>
+  <!-- emily -->
+  <string name="set_time_title">Tetapkan masa</string>
+  <string name="week_days">Hari bekerja</string>
+  <string name="week_end">Hujung minggu</string>
+  <string name="ring_gently_summary">Kelantangan bunyi penggera semakin lama semakin meningkat</string>
+  <string name="ring_none">Tiada</string>
+  <string name="total_time">masa keseluruhan</string>
+  <string name="current_lap">lap semasa</string>
+  <string name="by_day">Mengikut hari</string>
+  <string name="never_alert">Penggera ditetapkan supaya tidak pernah berbunyi.</string>
+  <!-- Widgets -->
+  <string name="paper_folding_widge">Pure Fresh</string>
+  <string name="time_roller_widget">Time Roller</string>
+  <string name="day_night_widget">Sun-Moon</string>
+  <string name="rainbow_widget_label">Rainbow</string>
+  <string name="zone_list_menu_sort_alphabetically">Asingkan mengikut abjad</string>
+  <string name="zone_list_menu_sort_by_timezone">Asingkan mengikut zon masa</string>
+  <string name="worldclock_settings">Pilih bandar</string>
+  <!-- 20130830 -->
+  <string name="actiobar_more">Lebih lagi</string>
+  <string name="actiobar_search">Cari</string>
+  <string name="actionbar_add_city">Tambah bandar</string>
+  <!-- kim_bai -->
+  <string name="zone_picker">Pilih zon masa</string>
+  <string name="time_up_within">Tamat masa dalam</string>
+  <string name="press_the_lap_button">Tekan butang \"Lap\" untuk merekod masa yang tepat untuk setiap lap.</string>
+  <string name="press_the_start_button">Tekan butang \Mula\" untuk menghidupkan jam randik.</string>
+  <string name="alarm_alert_tip">Sila gelungsurkan ke Snooze atau Singkir</string>
+  <string name="today">Hari ini</string>
+  <string name="earlier">Sebelum ini</string>
+  <string name="later">Kemudian</string>
+  <string name="repeat_once">Sekali</string>
+  <string name="repeat_pre">Ulangan ditukar kepada</string>
+  <string name="select_all">Pilih semua</string>
+  <string name="weekly">Mingguan</string>
+</resources>

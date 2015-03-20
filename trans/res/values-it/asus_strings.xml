@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- emily,add -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Ora</string>
+  <string name="onoff_voiceagent">Segnala ora</string>
+  <string name="onoff_voiceagent_summary">Segnala l\'ora di spegnimento dell\'allarme</string>
+  <string name="timer_resume">Riprendi</string>
+  <string name="timer_pause">Interrompi</string>
+  <string name="dialog_title">Timer</string>
+  <string name="dialog_message">Tempo scaduto</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Annulla</string>
+  <string name="edit_alarm_dialog_title">Rimuovi allarmi</string>
+  <string name="edit_alarm_dialog_message">Rimuovere allarmi selezionati?</string>
+  <string name="alarm_switch">Attiva allarme</string>
+  <string name="alarm_time">Ora</string>
+  <string name="asus_alarm_repeat">Ripeti</string>
+  <string name="alarm_ring">Suoneria</string>
+  <string name="asus_alarm_vibrate">Vibrazione</string>
+  <string name="alarm_label">Etichetta</string>
+  <string name="menu_item_edit_world_clock">Modifica orologio mondiale</string>
+  <string name="local_time">(Ora locale)</string>
+  <string name="find_cities">Trova città</string>
+  <string name="search_or_add_city">Cerca o aggiungi città</string>
+  <string name="edit_ringtone">Modifica suoneria</string>
+  <string name="ring_gently">Suona delicatamente</string>
+  <!-- end -->
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">Modifica città</string>
+  <string name="clear_all">Cancella</string>
+  <string name="alarm_dir">Suoneria allarme</string>
+  <string name="music_dir">Musica</string>
+  <string name="city_found">città trovata</string>
+  <string name="cities_found">città trovate</string>
+  <string name="no_result_found">Nessun risultato</string>
+  <string name="set_time_title">Imposta ora</string>
+  <string name="week_days">Giorni feriali</string>
+  <string name="week_end">Fine settimana</string>
+  <string name="ring_gently_summary">Il volume dell\'allarme aumenta nel tempo</string>
+  <string name="ring_none">Nessuno</string>
+  <string name="paper_folding_widge">Puro e fresco</string>
+  <string name="time_roller_widget">Tempo</string>
+  <string name="day_night_widget">Sole/luna</string>
+  <string name="rainbow_widget_label">Arcobaleno</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Seleziona città</string>
+  <string name="actiobar_more">Altro</string>
+  <string name="actiobar_search">Cerca</string>
+  <string name="actionbar_add_city">Aggiungi città</string>
+  <!--new translations 2014-3-13 -->
+  <string name="total_time">tempo totale</string>
+  <string name="current_lap">giro attuale</string>
+  <string name="by_day">Per giorno</string>
+  <string name="never_alert">Allarme impostato per non avvisare.</string>
+  <string name="zone_list_menu_sort_alphabetically">Ordine alfabetico</string>
+  <string name="zone_list_menu_sort_by_timezone">Ordine per fuso orario</string>
+  <string name="zone_picker">Seleziona fuso orario</string>
+  <string name="time_up_within">Tempo entro</string>
+  <string name="press_the_lap_button">Premere il tasto \"Giro\" per registrare il tempo preciso per ogni giro.</string>
+  <string name="press_the_start_button">Premere il tasto \"Avvia\" per attivare il cronometro.</string>
+  <string name="alarm_alert_tip">Scorrere su Posponi o Elimina</string>
+  <string name="today">Oggi</string>
+  <string name="earlier">Prima</string>
+  <string name="later">Dopo</string>
+  <string name="repeat_once">Una volta</string>
+  <string name="repeat_pre">Ripetizione modificata in&amp;#160;</string>
+  <string name="select_all">Seleziona tutto</string>
+  <string name="weekly">Settimanale</string>
+</resources>

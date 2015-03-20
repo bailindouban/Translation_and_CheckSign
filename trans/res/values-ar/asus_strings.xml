@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Time</string>
+  <string-array name="suggestion_string">
+    </string-array>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">استئناف</string>
+  <string name="timer_pause">إيقاف مؤقت</string>
+  <string name="dialog_title">المؤقت</string>
+  <string name="dialog_message">إنتهاء الوقت المحدد</string>
+  <string name="dialog_ok">موافق</string>
+  <string name="dialog_cancel">إلغاء</string>
+  <string name="edit_alarm_dialog_title">إزالة التنبيهات</string>
+  <string name="edit_alarm_dialog_message">إزالة التنبيهات المحددة؟</string>
+  <string name="alarm_switch">شغّل المنبه</string>
+  <string name="alarm_time">الوقت</string>
+  <string name="asus_alarm_repeat">تكرار</string>
+  <string name="alarm_ring">نغمة الرنين</string>
+  <string name="asus_alarm_vibrate">هزاز</string>
+  <string name="alarm_label">وسم</string>
+  <string name="onoff_voiceagent">الإبلاغ عن الوقت</string>
+  <string name="onoff_voiceagent_summary">الإبلاغ بالوقت عند توقف المنبه</string>
+  <string name="ring_gently">رنين خفيف</string>
+  <string name="edit_ringtone">تعديل نغمة الرنين</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">تعديل الساعة العالمية</string>
+  <string name="local_time">(التوقيت المحلي)</string>
+  <string name="find_cities">بحث عن مدن</string>
+  <string name="search_or_add_city">ابحث عن أو أضف مدينة</string>
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">تحرير المدن</string>
+  <string name="clear_all">مسح</string>
+  <string name="alarm_dir">رنين التنبيه</string>
+  <string name="music_dir">موسيقى</string>
+  <string name="city_found">مدينة تم العثور عليها</string>
+  <string name="cities_found">مدن تم العثور عليها</string>
+  <string name="no_result_found">لا توجد نتائج</string>
+  <string name="set_time_title">ضبط الوقت</string>
+  <string name="week_days">أيام الأسبوع</string>
+  <string name="week_end">عطلات نهاية الأسبوع</string>
+  <string name="ring_gently_summary">يزداد صوت المنبه بمرور الوقت</string>
+  <string name="ring_none">لا شيء</string>
+  <string name="paper_folding_widge">عذب نقي</string>
+  <string name="time_roller_widget">أسطوانة الوقت</string>
+  <string name="day_night_widget">الشمس القمر</string>
+  <string name="rainbow_widget_label">قوس قزح</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">اختر مدينة</string>
+  <string name="actiobar_more">المزيد</string>
+  <string name="actiobar_search">بحث</string>
+  <string name="actionbar_add_city">إضافة مدينة</string>
+  <!--new translations 2014-3-13 -->
+  <string name="total_time">الوقت الكلي</string>
+  <string name="current_lap">اللفة الحالية</string>
+  <string name="by_day">حسب اليوم</string>
+  <string name="never_alert">تم ضبط المنبه على عدم التنبيه.</string>
+  <string name="zone_list_menu_sort_alphabetically">فرز أبجدي</string>
+  <string name="zone_list_menu_sort_by_timezone">فرز حسب المنطقة الزمنية</string>
+  <string name="zone_picker">تحديد منطقة زمنية</string>
+  <string name="time_up_within">تسجيل الوقت في</string>
+  <string name="press_the_lap_button">اضغط على زر \"لفة\" لتسجيل وقت كل لفة بدقة.</string>
+  <string name="press_the_start_button">اضغط على زر \"بدء\" لتشغيل ساعة الإيقاف.</string>
+  <string name="alarm_alert_tip">برجاء التمرير للغفوة أو الرفض</string>
+  <string name="today">اليوم</string>
+  <string name="earlier">مبكرًا</string>
+  <string name="later">لاحقًا</string>
+  <string name="repeat_once">مرة</string>
+  <string name="repeat_pre">التكرار تغير إلى</string>
+  <string name="select_all">تحديد الكل</string>
+  <string name="weekly">أسبوعيًا</string>
+  <string name="weekly5">أ5سبوعيًا</string>
+  <string name="weekly2">أسب3وعيًا</string>
+</resources>

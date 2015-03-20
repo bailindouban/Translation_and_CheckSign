@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- emily,add -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Tid</string>
+  <string name="onoff_voiceagent">Tidsrapportering</string>
+  <string name="onoff_voiceagent_summary">Rapportera tiden när larmet startas</string>
+  <string name="timer_resume">Återuppta</string>
+  <string name="timer_pause">Pausa</string>
+  <string name="dialog_title">Timer</string>
+  <string name="dialog_message">Tiden är ute</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Avbryt</string>
+  <string name="edit_alarm_dialog_title">Ta bort larm</string>
+  <string name="edit_alarm_dialog_message">Ta bort markerade larm?</string>
+  <string name="alarm_switch">Sätt på larm</string>
+  <string name="alarm_time">Tid</string>
+  <string name="asus_alarm_repeat">Repetera</string>
+  <string name="alarm_ring">Ringsignal</string>
+  <string name="asus_alarm_vibrate">Vibrera</string>
+  <string name="alarm_label">Etikett</string>
+  <string name="menu_item_edit_world_clock">Ändra världsklocka</string>
+  <string name="local_time">(Lokal tid)</string>
+  <string name="find_cities">Hitta städer</string>
+  <string name="search_or_add_city">Sök eller lägg till stad</string>
+  <string name="edit_ringtone">Ändra ringsignal</string>
+  <string name="ring_gently">Ring långsamt</string>
+  <!-- end -->
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">Redigera städer</string>
+  <string name="clear_all">Rensa</string>
+  <string name="alarm_dir">Larmringning</string>
+  <string name="music_dir">Musik</string>
+  <string name="city_found">stad har hittats</string>
+  <string name="cities_found">städer har hittats</string>
+  <string name="no_result_found">Inga resultat</string>
+  <string name="set_time_title">Ställ in tid</string>
+  <string name="week_days">Veckodagar</string>
+  <string name="week_end">Veckoslut</string>
+  <string name="ring_gently_summary">Larmets volym ökar efter hand</string>
+  <string name="ring_none">Ingen</string>
+  <string name="paper_folding_widge">Alldeles ny</string>
+  <string name="time_roller_widget">Tid rullar</string>
+  <string name="day_night_widget">Sol måne</string>
+  <string name="rainbow_widget_label">Regnbåge</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Välj en stad</string>
+  <string name="actiobar_more">Mer</string>
+  <string name="actiobar_search">Sök</string>
+  <string name="actionbar_add_city">Lägg till stad</string>
+  <!-- emily -->
+  <string name="total_time">total tid</string>
+  <string name="current_lap">nuvarande varv</string>
+  <string name="by_day">Efter dag</string>
+  <string name="never_alert">Larm inställt på att aldrig avisera.</string>
+  <string name="zone_list_menu_sort_alphabetically">Sortera alfabetsikt</string>
+  <string name="zone_list_menu_sort_by_timezone">Sortera efter tidszon</string>
+  <!-- kim_bai -->
+  <string name="zone_picker">Välj tidszon</string>
+  <string name="time_up_within">Tid upp inom</string>
+  <string name="press_the_lap_button">Tryck på \"Varv\"-knappen för att registrera rätt tid för varje varv.</string>
+  <string name="press_the_start_button">Tryck på \"Start\"-knappen för att sätta igång stoppuret.</string>
+  <string name="alarm_alert_tip">För till Snooze eller Avvisa</string>
+  <string name="today">Idag</string>
+  <string name="earlier">Tidigare</string>
+  <string name="later">Senare</string>
+  <string name="repeat_once">En gång</string>
+  <string name="repeat_pre">Upprepning har ändrats till</string>
+  <string name="select_all">Markera alla</string>
+  <string name="weekly">Varje vecka</string>
+</resources>

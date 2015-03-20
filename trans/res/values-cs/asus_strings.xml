@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- emily,add -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Time</string>
+  <string name="onoff_voiceagent">Hlášení času</string>
+  <string name="onoff_voiceagent_summary">Ohlásit čas, kdy zazvoní alarm</string>
+  <string name="timer_resume">Pokračovat</string>
+  <string name="timer_pause">Pozastavit</string>
+  <string name="dialog_title">Časovač</string>
+  <string name="dialog_message">Čas vypršel</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Storno</string>
+  <string name="edit_alarm_dialog_title">Odstranit alarmy</string>
+  <string name="edit_alarm_dialog_message">Odstranit vybrané alarmy?</string>
+  <string name="alarm_switch">Vypnout alarm</string>
+  <string name="alarm_time">Čas</string>
+  <string name="asus_alarm_repeat">Opakovat</string>
+  <string name="alarm_ring">Vyzváněcí tón</string>
+  <string name="asus_alarm_vibrate">Vibrace</string>
+  <string name="alarm_label">Popisek</string>
+  <string name="menu_item_edit_world_clock">Upravit světový čas</string>
+  <string name="local_time">(Místní čas)</string>
+  <string name="find_cities">Najít města</string>
+  <string name="search_or_add_city">Vyhledat nebo přidat město</string>
+  <string name="edit_ringtone">Upravit vyzváněcí tón</string>
+  <string name="ring_gently">Tiché zvonění</string>
+  <!-- end -->
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">Upravit města</string>
+  <string name="clear_all">Vymazat</string>
+  <string name="alarm_dir">Zvonění alarmu</string>
+  <string name="music_dir">Hudba</string>
+  <string name="city_found">město nalezeno</string>
+  <string name="cities_found">měst nalezeno</string>
+  <string name="no_result_found">Žádné výsledky</string>
+  <string name="set_time_title">Nastavit čas</string>
+  <string name="week_days">Pracovní dny</string>
+  <string name="week_end">Víkendy</string>
+  <string name="ring_gently_summary">Hlasitost budíku se časem zvyšuje</string>
+  <string name="ring_none">Žádné</string>
+  <string name="paper_folding_widge">Čisté osvěžení</string>
+  <string name="time_roller_widget">Posouvání času</string>
+  <string name="day_night_widget">Slunce měsíc</string>
+  <string name="rainbow_widget_label">Duha</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Vyberte město</string>
+  <string name="actiobar_more">Více</string>
+  <string name="actiobar_search">Hledat</string>
+  <string name="actionbar_add_city">Přidat město</string>
+  <!--new translations 2014-3-13 -->
+  <string name="total_time">celkový čas</string>
+  <string name="current_lap">aktuální etapa</string>
+  <string name="by_day">Podle dne</string>
+  <string name="never_alert">Budík je vypnutý.</string>
+  <string name="zone_list_menu_sort_alphabetically">Řadit abecedně</string>
+  <string name="zone_list_menu_sort_by_timezone">Řadit podle časového pásma</string>
+  <string name="zone_picker">Vybrat časové pásmo</string>
+  <string name="time_up_within">Čas vyprší do</string>
+  <string name="press_the_lap_button">Stisknutím tlačítka \"Lap\" bude zaznamenán přesný čas pro každou etapu.</string>
+  <string name="press_the_start_button">Stisknutím tlačítka \"Start\" spustíte stopky.</string>
+  <string name="alarm_alert_tip">Přejít na Odložit nebo Zrušit</string>
+  <string name="today">Dnes</string>
+  <string name="earlier">Dříve</string>
+  <string name="later">Později</string>
+  <string name="repeat_once">Jednou</string>
+  <string name="repeat_pre">Opakování bylo změněno na </string>
+  <string name="select_all">Vybrat vše</string>
+  <string name="weekly">Týdně</string>
+</resources>

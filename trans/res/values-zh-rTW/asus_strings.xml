@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">時鐘</string>
+    <string name="timer_resume">恢復</string>
+    <string name="timer_pause">暫停</string>
+    <string name="dialog_title">計時器</string>
+    <string name="dialog_message">時間到</string>
+    <string name="dialog_ok">確定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="edit_alarm_dialog_title">刪除鬧鐘</string>
+    <string name="edit_alarm_dialog_message">刪除所選擇的鬧鐘?</string>
+    <string name="alarm_switch">開啟鬧鐘</string>
+    <string name="alarm_time">時間</string>
+    <string name="asus_alarm_repeat">重複</string>
+    <string name="alarm_ring">鈴聲</string>
+    <string name="asus_alarm_vibrate">震動</string>
+    <string name="alarm_label">標籤</string>
+    <string name="menu_item_edit_world_clock">編輯世界時鐘</string>
+    <string name="local_time">(本地城市)</string>
+    <string name="find_cities">搜索城市</string>
+    <string name="search_or_add_city">搜索或添加城市</string>
+    <string name="edit_ringtone">編輯鈴聲</string>
+    <string name="ring_gently">鈴聲漸變</string>
+    <string name="clear_all">清除</string>
+    <string name="alarm_dir">鬧鐘鈴聲</string>
+    <string name="music_dir">音樂</string>
+    <string name="edit_cities">編輯</string>
+    <string name="city_found">個城市</string>
+    <string name="cities_found">個城市</string>
+    <string name="no_result_found">沒有搜索到任何結果</string>
+    <!-- emily -->
+    <string name="set_time_title">設置時間</string>
+    <string name="week_days">工作日</string>
+    <string name="week_end">週末</string>
+    <string name="ring_gently_summary">鈴聲大小隨響鈴時間漸增</string>
+    <string name="ring_none">無</string>
+    <string name="by_day">按日</string>
+    <string name="every_month">每月</string>
+    <string name="every_year">每年</string>
+    <string name="never_alert">已將鬧鐘設置為永不提醒。</string>
+     <!-- Widgets -->
+    <string name="paper_folding_widge">綠之然</string>
+    <string name="time_roller_widget">時之輪</string>
+    <string name="day_night_widget">晨曦</string>
+    <string name="rainbow_widget_label">彩虹</string>
+
+    <!-- 20130830 -->
+    <string name="worldclock_settings">選擇城市</string>
+    <string name="actiobar_more">更多</string>
+    <string name="actiobar_search">搜索</string>
+    <string name="actionbar_add_city">添加城市</string>
+    <string name="cities_found_front">找到  </string>
+
+    <!-- 20131204 -->
+    <string name="alarm_alert_tip">請滑動滑塊來暫停或關閉鬧鐘</string>
+    <string name="zone_picker">選擇時區</string>
+    <string name="zone_list_menu_sort_alphabetically">依照字母排序</string>
+    <string name="zone_list_menu_sort_by_timezone">依時區排序</string>
+
+    <!-- kim_bai for test -->
+    <string name="total_time">總時間</string>
+    <string name="current_lap">當前圈</string>
+    <string name="time_up_within">時間到</string>
+    <string name="press_the_lap_button">按下“單圈計時”按鈕記錄每一圈的準確時間。</string>
+    <string name="press_the_start_button">按下“開始”按鈕開啟計時器。</string>
+    <string name="today">今天</string>
+    <string name="earlier">早</string>
+    <string name="later">晚</string>
+    
+    <string name="repeat_once">只響一次</string>
+    <string name="repeat_pre">重複已變更為</string>
+    <string name="select_all">全選</string>
+    
+    <string name="weekly">按星期</string>
+
+</resources>

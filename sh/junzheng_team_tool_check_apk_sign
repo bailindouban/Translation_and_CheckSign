@@ -1,0 +1,21 @@
+#!/bin/sh -e
+
+if [ -z "$1" ]; then
+    echo "Sorry, the input format is: $ junzheng_team_tool_check_apk_sign apk_path"
+else
+    base="/home/junzheng_zhang/Desktop/kim/junzheng_team_tools/apk_sign"
+    certfile="META-INF/CERT.RSA"
+    cerfile_path=$base/$certfile
+    if [ ! -f "$certfile_path" ]; then
+        echo "delete...\n"
+        rm $cerfile_path
+    fi
+    unzip $1 $certfile -d $base
+    if [ "$2"x = "-v"x ]; then
+        keytool -printcert -file $cerfile_path
+    else
+        keytool -printcert -file $cerfile_path | grep Owner
+        keytool -printcert -file $cerfile_path | grep Issue
+        keytool -printcert -file $cerfile_path | grep SHA1:
+    fi
+fi

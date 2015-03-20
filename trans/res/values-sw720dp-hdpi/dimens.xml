@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <integer name="map_view_span">10</integer>
+
+    <dimen name="worldclock_list_left">40dp</dimen>
+    <dimen name="worldclock_list_right">40dp</dimen>
+    <dimen name="alarm_list_left_right">40dp</dimen>
+    <dimen name="worldclock_list_item_height">90dp</dimen>
+    <dimen name="worldclock_list_height_digital">90dp</dimen>
+    <dimen name="worldclock_list_height_analog">180dp</dimen>
+    <dimen name="sw_item_space">154dp</dimen>
+    <dimen name="alarm_clock_dayofweek_size">21dp</dimen>
+    <dimen name="alarm_clock_label_size">19dp</dimen>
+
+    <item name="label_linespace" format="float" type="dimen">1.36</item>
+
+    <!-- waylen_wang@asus.com start -->
+    <dimen name="cir_bg_height">341px</dimen>
+    <dimen name="cir_height">299px</dimen>
+    <dimen name="cir_stroke_width">33px</dimen>
+    <!-- waylen_wang@asus.com end -->
+
+    <integer name="clock_top_weight">56</integer>
+    <integer name="clock_medium_weight">442</integer>
+    <integer name="clock_bottom_weight">708</integer>
+    <integer name="alarm_top_weight">411</integer>
+    <integer name="alarm_bottom_weight">796</integer>
+    <integer name="stopwatch_medium_weight">355</integer>
+    <integer name="stopwatch_bottom_weight">796</integer>
+    <integer name="timer_list_top_weight">56</integer>
+    <integer name="timer_list_bottom_weight">823</integer>
+
+    <dimen name="worldclock_button_top">11dp</dimen>
+    <dimen name="worldclock_button_bottom">13dp</dimen>
+
+    <!-- tab -->
+    <!-- 30-53/2 = 3 -->
+    <dimen name="tab_side_padding">0dp</dimen>
+    <!-- (360-3*2-35*4)/8 = 27 -->
+    <dimen name="tab_button_width">78dp</dimen>
+    <dimen name="tab_middle_margin">23dp</dimen>
+    <dimen name="tab_top">11dp</dimen>
+    <dimen name="tab_bottom">13dp</dimen>
+    <dimen name="menu_button_marginleft">32dp</dimen>
+    <dimen name="menu_button_marginright">16dp</dimen>
+
+    <!-- worldclock map -->
+    <dimen name="mapview_padding_left">54dp</dimen>
+    <dimen name="mapview_text_padding">5dp</dimen>
+	
+    <!-- worldclock item -->
+    <dimen name="worldclock_item_top_margin">70dp</dimen>
+    <dimen name="worldclock_item_bottom_margin">10dp</dimen>
+    <dimen name="worldclock_item_vertical">40dp</dimen>
+    <dimen name="worldclock_item_horizontal">8dp</dimen>
+    <dimen name="worldclock_item_day_top_margin">0dp</dimen>
+    <dimen name="worldclock_item_city_top_margin">3dp</dimen>
+    <dimen name="worldclock_item_postHour_top_margin">-2dp</dimen>
+    <dimen name="city_name_font_size">18dp</dimen>
+    <dimen name="worldclock_grid_columnWidth">175dp</dimen>
+    <dimen name="worldclock_item_margin_side_analog">38dp</dimen>
+    <dimen name="worldclock_item_margin_side_digital">56dp</dimen>
+    <dimen name="worldclock_day_textsize">18dp</dimen>
+    <dimen name="worldclock_city_textsize_analog">24dp</dimen>
+    <dimen name="worldclock_city_textsize_digital">28dp</dimen>
+    <dimen name="worldclock_postHour_textsize">18dp</dimen>
+    <dimen name="worldclock_city_maxwidth">150dp</dimen>
+    <dimen name="mapview_padding_top">63dp</dimen>
+    <dimen name="big_font_size">240dp</dimen>
+    <dimen name="gridview_top_margin">51dp</dimen>
+    <dimen name="worldclock_item_space_digital">24dp</dimen>
+    <dimen name="worldclock_gridview_top_margin">77dp</dimen>
+
+    <integer name="numColumns">4</integer>
+    <integer name="adjust_distance">-10</integer>
+    <!-- divider line -->
+    <dimen name="divider_line_side_margin">56dp</dimen>
+
+    <!-- alarm -->
+    <dimen name="alarm_clock_frameLayout_left_margin">134dp</dimen>
+    <dimen name="alarm_clock_top_margin">129dp</dimen>
+    <dimen name="alarm_city_left_margin">32dp</dimen>
+    <dimen name="alarm_clock_text_top_margin">140dp</dimen>
+    <dimen name="alarmclock_size">212dp</dimen>
+    <dimen name="alarmclock_arc_radius">96dp</dimen>
+    <dimen name="alarmclock_arc_width">20dp</dimen>
+    <dimen name="alarm_alert_down_top_margin">450dp</dimen>
+    <dimen name="alarm_alert_down_top_margin_land">270dp</dimen>
+    
+    <!-- alarm alert -->
+	<dimen name="glow_pad_view_padding">-165dp</dimen>
+	<dimen name="alarm_alert_top_margin">280dp</dimen>
+	<dimen name="alarm_label_padding_left">8dp</dimen>
+	
+    <!-- stopwatch -->
+    <dimen name="noraml_font_size">138dp</dimen>
+    <dimen name="label_font_size">16dp</dimen>
+    <dimen name="timer_digital_time_height">114dp</dimen>
+    <dimen name="digital_time_top_margin">102dp</dimen>
+    <dimen name="circle_margin_left">104dp</dimen>
+    <dimen name="circle_margin_right">104dp</dimen>
+    <dimen name="stopwatch_btn_height">36dp</dimen>
+    <dimen name="stopwatch_btn_margin_left">28dp</dimen>
+    <dimen name="stopwatch_laptime_margin_top">54dp</dimen>
+    <dimen name="timer_digital_margin_bottom">54dp</dimen>
+
+    <item name="stopwatch_text_space" format="float" type="dimen">1.93</item>
+    <item name="timer_text_space" format="float" type="dimen">1.92</item>
+
+    <!-- timer -->
+    <dimen name="timer_key_width">94dp</dimen>
+    <dimen name="timer_key_interval">54dp</dimen>
+    <dimen name="timer_key_horizontal_interval">96dp</dimen>
+
+    <!-- timer list -->
+    <dimen name="timer_time_list_font_size">104dp</dimen>
+    <dimen name="time_side_margin_left">104dp</dimen>
+    <dimen name="time_side_margin_right">104dp</dimen>
+    <dimen name="timer_list_time_text_height">110dp</dimen>
+    <dimen name="timer_counting_view_left_margin">64dp</dimen>
+    <dimen name="timer_label_text_left_margin">72dp</dimen>
+    <dimen name="timer_list_item_body_width">560dp</dimen>
+    <dimen name="timer_list_item_line_top_margin">10dp</dimen>
+    <dimen name="timer_list_item_line_height">162dp</dimen>
+    <dimen name="timer_list_item_delete_left_margin">60dp</dimen>
+    <dimen name="timer_list_padding_top">58dp</dimen>
+    <dimen name="timer_list_padding_bottom">40dp</dimen>
+
+    <!-- timer up -->
+    <dimen name="timer_time_up_text_margin">60dp</dimen>
+    <dimen name="timer_ok_top_margin">280dp</dimen>
+    <dimen name="timer_time_up_message_top_margin">33dp</dimen>
+    <dimen name="timer_time_up_font_size">145dp</dimen>
+    <dimen name="timeup_icon_padding">8dp</dimen>
+    <dimen name="time_label_margin_bottom">10dp</dimen>
+
+    <!-- alarm -->
+    <dimen name="alarm_list_left_margin">72dp</dimen>
+    <dimen name="alarm_clock_list_right_margin">57dp</dimen>
+    <dimen name="alarm_list_date_textsize">32dp</dimen>
+    <dimen name="alarm_list_ampm_textsize">18dp</dimen>
+    <dimen name="alarm_clock_days_in_week_textsize">18dp</dimen>
+    <dimen name="alarm_clock_tag_textsize">18dp</dimen>
+    <dimen name="alarm_list_item_daysofweek_maxwidth">330dp</dimen>
+    <dimen name="alarm_list_item_digitalclock_margintop">0dp</dimen>
+    <dimen name="alarm_line_down_height">86dp</dimen>
+    <dimen name="clock_week_marginleft">49dp</dimen>
+    <dimen name="alarm_listview_top_margin">81dp</dimen>
+    <dimen name="alarm_edit_item_label_maxwidth">380dp</dimen>
+    <dimen name="alarm_listview_clock_week_margintop">-2dp</dimen>
+	
+    <!-- stopwatch -->
+    <dimen name="stop_clock_count_textsize">21dp</dimen>
+    <dimen name="stopclock_list_left_margin">110dp</dimen>
+    <dimen name="stopwatch_listview_top_margin">60dp</dimen>
+    <dimen name="timer_line_height">35dp</dimen>
+    <dimen name="stopwatch_lapview_time_top_margin">3dp</dimen>
+    <dimen name="stopwatch_lapview_time_left_margin">286dp</dimen>
+    <dimen name="lapview_number_marginleft">17dp</dimen>
+    <dimen name="stopwatch_laptime_label_textsize">18dp</dimen>
+    <dimen name="stopwatch_lap_total_textsize">30dp</dimen>
+    <dimen name="stopwatch_hint_textsize">24dp</dimen>
+    <dimen name="stopwatch_hint_margin">176dp</dimen>
+    <dimen name="desk_clock_city_edit_marginleft">24dp</dimen>
+    <dimen name="desk_clock_city_edit_marginright">24dp</dimen>
+    <dimen name="worldclock_time_textsize">32dp</dimen>
+    <dimen name="worldclock_time_ampm_textsize">18dp</dimen>
+
+    <!-- Space -->
+    <dimen name="text_space_stopwatch">38dp</dimen>
+    <dimen name="text_space_timer">38dp</dimen>
+    <dimen name="text_space_timer_list">31dp</dimen>
+    <dimen name="text_space_timer_up">45dp</dimen>
+    
+    <dimen name="punctuation_space_stopwatch">15dp</dimen>
+    <dimen name="punctuation_space_timer">15dp</dimen>
+    <dimen name="punctuation_space_timer_list">15dp</dimen>
+    <dimen name="punctuation_space_timer_up">17dp</dimen>
+    
+    <!-- widget -->
+    <dimen name="min_digital_widget_height">130dp</dimen>
+</resources>

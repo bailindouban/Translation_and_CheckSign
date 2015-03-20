@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- emily,add -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Время</string>
+  <string name="onoff_voiceagent">Отчет по времени</string>
+  <string name="onoff_voiceagent_summary">Сообщить время срабатывания будильника</string>
+  <string name="timer_resume">Возобновить</string>
+  <string name="timer_pause">Пауза</string>
+  <string name="dialog_title">Таймер</string>
+  <string name="dialog_message">Время вышло</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Отмена</string>
+  <string name="edit_alarm_dialog_title">Удалить сигналы будильника</string>
+  <string name="edit_alarm_dialog_message">Удалить выбранные сигналы будильника?</string>
+  <string name="alarm_switch">Включить будильник</string>
+  <string name="alarm_time">Время</string>
+  <string name="asus_alarm_repeat">Повтор</string>
+  <string name="alarm_ring">Мелодия вызова</string>
+  <string name="asus_alarm_vibrate">Вибрация</string>
+  <string name="alarm_label">Ярлык</string>
+  <string name="menu_item_edit_world_clock">Изменить Мировое время</string>
+  <string name="local_time">(Местное время)</string>
+  <string name="find_cities">Найти города</string>
+  <string name="search_or_add_city">Искать или добавить город</string>
+  <string name="edit_ringtone">Именить мелодию вызова</string>
+  <string name="ring_gently">Тихий звонок</string>
+  <!-- end -->
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">Редактировать города</string>
+  <string name="clear_all">Очистить</string>
+  <string name="alarm_dir">Звонок будильника</string>
+  <string name="music_dir">Музыка</string>
+  <string name="city_found">город обнаружен</string>
+  <string name="cities_found">городов обнаружено</string>
+  <string name="no_result_found">Нет результатов</string>
+  <string name="set_time_title">Установить время</string>
+  <string name="week_days">Дни недели</string>
+  <string name="week_end">Выходные дни</string>
+  <string name="ring_gently_summary">Громкость будильника постепенно увеличивается</string>
+  <string name="ring_none">Нет</string>
+  <string name="paper_folding_widge">Чистота и свежесть</string>
+  <string name="time_roller_widget">Вращающийся диск времени</string>
+  <string name="day_night_widget">Солнце и луна</string>
+  <string name="rainbow_widget_label">Радуга</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Выберите город</string>
+  <string name="actiobar_more">Еще</string>
+  <string name="actiobar_search">Поиск</string>
+  <string name="actionbar_add_city">Добавить город</string>
+  <!-- emily -->
+  <string name="total_time">общее время</string>
+  <string name="current_lap">текущий цикл</string>
+  <string name="by_day">По дням</string>
+  <string name="never_alert">Для будильника установлено значение "не предупреждать". </string>
+  <string name="zone_list_menu_sort_alphabetically">Сортировать по алфавиту</string>
+  <string name="zone_list_menu_sort_by_timezone">Сортировать по часовому поясу</string>
+  <!-- kim_bai -->
+  <string name="zone_picker">Выберите часовой пояс</string>
+  <string name="time_up_within">Время выйдет через </string>
+  <string name="press_the_lap_button">Нажмите на кнопку \"Lap\" (Цикл) для записи точного времени каждого цикла.</string>
+  <string name="press_the_start_button">Нажмите на кнопку \"Start\" (Пуск) для запуска секундомера.</string>
+  <string name="alarm_alert_tip">Проведите пальцем, чтобы повторить или отменить </string>
+  <string name="today">Сегодня</string>
+  <string name="earlier">Раньше</string>
+  <string name="later">Позже</string>
+  <string name="repeat_once">Однократно</string>
+  <string name="repeat_pre">\u041f\u043e\u0432\u0442\u043e\u0440 \u0441\u043c\u0435\u043d\u0435\u043d \u043d\u0430  </string>
+  <string name="select_all">\u0412\u044b\u0431\u0440\u0430\u0442\u044c \u0432\u0441\u0435</string>
+  <string name="weekly">Enter a number</string>
+</resources>

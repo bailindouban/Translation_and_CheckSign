@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Time</string>
+  <string-array name="suggestion_string">
+    </string-array>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">ทำต่อ</string>
+  <string name="timer_pause">หยุดชั่วคราว</string>
+  <string name="dialog_title">ตัวตั้งเวลา</string>
+  <string name="dialog_message">หมดเวลา</string>
+  <string name="dialog_ok">ตกลง</string>
+  <string name="dialog_cancel">ยกเลิก</string>
+  <string name="edit_alarm_dialog_title">ลบการปลุก</string>
+  <string name="edit_alarm_dialog_message">ลบการปลุกที่เลือกหรือไม่?</string>
+  <string name="alarm_switch">เปิดการปลุก</string>
+  <string name="alarm_time">เวลา</string>
+  <string name="asus_alarm_repeat">ซ้ำ</string>
+  <string name="alarm_ring">ริงโทน</string>
+  <string name="asus_alarm_vibrate">สั่น</string>
+  <string name="alarm_label">ป้าย</string>
+  <string name="onoff_voiceagent">การรายงานเวลา</string>
+  <string name="onoff_voiceagent_summary">รายงานเวลาเมื่อการปลุกดับ</string>
+  <string name="ring_gently">ส่งเสียงนุ่มๆ</string>
+  <string name="edit_ringtone">แก้ไขริงโทน</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">แก้ไขนาฬิกาโลก</string>
+  <string name="local_time">(เวลาท้องถิ่น)</string>
+  <string name="find_cities">ค้นหาเมือง</string>
+  <string name="search_or_add_city">ค้นหาหรือเพิ่มเมือง</string>
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">แก้ไขเมือง</string>
+  <string name="clear_all">ล้าง</string>
+  <string name="alarm_dir">เสียงปลุก</string>
+  <string name="music_dir">ดนตรี</string>
+  <string name="city_found">พบเมือง</string>
+  <string name="cities_found">พบเมือง</string>
+  <string name="no_result_found">ไม่มีผลลัพธ์</string>
+  <string name="set_time_title">ตั้งเวลา</string>
+  <string name="week_days">วันธรรมดา</string>
+  <string name="week_end">สุดสัปดาห์</string>
+  <string name="ring_gently_summary">ระดับเสียงปลุกเพิ่มขึ้นเมื่อเวลาผ่านไป</string>
+  <string name="ring_none">ไม่มี</string>
+  <string name="paper_folding_widge">สดจริงๆ</string>
+  <string name="time_roller_widget">ไทม์โรลเลอร์</string>
+  <string name="day_night_widget">ดวงอาทิตย์ดวงจันทร์</string>
+  <string name="rainbow_widget_label">รุ้ง</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">เลือกเมือง</string>
+  <string name="actiobar_more">มีอีก</string>
+  <string name="actiobar_search">ค้นหา</string>
+  <string name="actionbar_add_city">เพิ่มเมือง</string>
+  <!-- emily -->
+  <string name="total_time">เวลาทั้งหมด</string>
+  <string name="current_lap">รอบปัจจุบัน</string>
+  <string name="by_day">ตามวัน</string>
+  <string name="never_alert">ตั้งค่าการปลุกไม่ให้เตือน</string>
+  <string name="zone_list_menu_sort_alphabetically">เรียงตามตัวอักษร</string>
+  <string name="zone_list_menu_sort_by_timezone">เรียงตามเขตเวลา</string>
+  <!-- kim_bai -->
+  <string name="zone_picker">เลือกเขตเวลา</string>
+  <string name="time_up_within">หมดเวลาภายใน</string>
+  <string name="press_the_lap_button">กดปุ่ม \"แลป\" เพื่อบันทึกเวลาที่แม่นยำสำหรับทุกรอบ</string>
+  <string name="press_the_start_button">กดปุ่ม \"เริ่ม\" เพื่อเริ่มนาฬิกาจับเวลา</string>
+  <string name="alarm_alert_tip">โปรดเลื่อน เพื่อเลื่อนปลุก หรือ ยกเลิก</string>
+  <string name="today">วันนี้</string>
+  <string name="earlier">ก่อนหน้า</string>
+  <string name="later">ภายหลัง</string>
+  <string name="repeat_once">หนึ่งครั้ง</string>
+  <string name="repeat_pre">การซ้ำถูกเปลี่ยนเป็น</string>
+  <string name="select_all">เลือกทั้งหมด</string>
+  <string name="weekly">ทุกสัปดาห์</string>
+</resources>

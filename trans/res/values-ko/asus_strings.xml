@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">시간</string>
+  <string-array name="suggestion_string">
+    </string-array>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">재시작</string>
+  <string name="timer_pause">일시 중지</string>
+  <string name="dialog_title">타이머</string>
+  <string name="dialog_message">시간이 종료되었습니다</string>
+  <string name="dialog_ok">확인</string>
+  <string name="dialog_cancel">취소</string>
+  <string name="edit_alarm_dialog_title">알람 제거</string>
+  <string name="edit_alarm_dialog_message">선택한 알람을 제거하시겠습니까?</string>
+  <string name="alarm_switch">알람 켜기</string>
+  <string name="alarm_time">시간</string>
+  <string name="asus_alarm_repeat">반복</string>
+  <string name="alarm_ring">벨소리</string>
+  <string name="asus_alarm_vibrate">진동</string>
+  <string name="alarm_label">라벨</string>
+  <string name="onoff_voiceagent">시간 보고</string>
+  <string name="onoff_voiceagent_summary">알람이 꺼지면 시간을 보고합니다</string>
+  <string name="ring_gently">벨소리 낮게</string>
+  <string name="edit_ringtone">벨소리 편집</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">세계 시계 편집</string>
+  <string name="local_time">(현지 시간)</string>
+  <string name="find_cities">도시 찾기</string>
+  <string name="search_or_add_city">도시 검색 또는 추가</string>
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">도시 편집</string>
+  <string name="clear_all">지우기</string>
+  <string name="alarm_dir">알람 벨소리</string>
+  <string name="music_dir">음악</string>
+  <string name="city_found">도시가 검색됨</string>
+  <string name="cities_found">도시들이 검색됨</string>
+  <string name="no_result_found">결과 없음</string>
+  <string name="set_time_title">시간 설정</string>
+  <string name="week_days">평일</string>
+  <string name="week_end">주말</string>
+  <string name="ring_gently_summary">시간이 지나면서 알람 볼륨이 증가합니다.</string>
+  <string name="ring_none">사용 안 함</string>
+  <string name="paper_folding_widge">퓨어 후레쉬</string>
+  <string name="time_roller_widget">시간 롤러</string>
+  <string name="day_night_widget">조석</string>
+  <string name="rainbow_widget_label">무지개</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">도시 선택</string>
+  <string name="actiobar_more">자세히</string>
+  <string name="actiobar_search">검색</string>
+  <string name="actionbar_add_city">도시 추가</string>
+  <!--new translations 2014-3-13 -->
+  <string name="total_time">총 시간</string>
+  <string name="current_lap">현재 랩</string>
+  <string name="by_day">날짜별</string>
+  <string name="never_alert">경고 안 함으로 설정된 알람.</string>
+  <string name="zone_list_menu_sort_alphabetically">사전순 정렬</string>
+  <string name="zone_list_menu_sort_by_timezone">시간대별 정렬</string>
+  <string name="zone_picker">시간대 선택</string>
+  <string name="time_up_within">타임 업까지 남은 시간 </string>
+  <string name="press_the_lap_button">모든 랩에 대해 정확한 시간을 기록하려면 \"랩\" 버튼을 누르십시오.</string>
+  <string name="press_the_start_button">스톱워치를 시작하려면 \"시작\" 버튼을 누르십시오.</string>
+  <string name="alarm_alert_tip">다시 알림 또는 해제로 미십시오.</string>
+  <string name="today">오늘</string>
+  <string name="earlier">이전</string>
+  <string name="later">나중에</string>
+  <string name="repeat_once">한 번</string>
+  <string name="repeat_pre">반복이 변경되었습니다</string>
+  <string name="select_all">모두 선택</string>
+  <string name="weekly">매주</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- kim_bai -->
+
+    <!-- Timer -->
+
+    <style name="timer_label">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#fa710d</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="timer_up_label" parent="timer_label">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- worldclock,add by emily -->
+    <style name="world_clock_time">
+        <item name="android:textSize">@dimen/world_clock_time_size</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+    </style>
+
+    <style name="timer_time_up_message">
+        <item name="android:textSize">64dp</item>
+        <item name="android:textColor">#ef4747</item>
+        <item name="android:fontFamily">Roboto</item>
+    </style>
+
+</resources>

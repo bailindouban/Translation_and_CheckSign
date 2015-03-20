@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--      Copyright (C) 2007 The Android Open Source Project       Licensed under the Apache License, Version 2.0 (the "License");      you may not use this file except in compliance with the License.      You may obtain a copy of the License at            http://www.apache.org/licenses/LICENSE-2.0       Unless required by applicable law or agreed to in writing, software      distributed under the License is distributed on an "AS IS" BASIS,      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.      See the License for the specific language governing permissions and      limitations under the License. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">समय</string>
+  <string-array name="suggestion_string"/>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">शुरू करें</string>
+  <string name="timer_pause">रोकें</string>
+  <string name="dialog_title">टाइमर</string>
+  <string name="dialog_message">टाइम समाप्त हो गया है</string>
+  <string name="dialog_ok">ठीक है</string>
+  <string name="dialog_cancel">रद्द करें</string>
+  <string name="edit_alarm_dialog_title">अलार्म हटाएं</string>
+  <string name="edit_alarm_dialog_message">क्या अलार्म हटा दें?</string>
+  <string name="alarm_switch">अलार्म चालू करें</string>
+  <string name="alarm_time">समय</string>
+  <string name="asus_alarm_repeat">दोहराएं</string>
+  <string name="alarm_ring">रिंगटोन</string>
+  <string name="asus_alarm_vibrate">वाइब्रेट</string>
+  <string name="alarm_label">लेबल</string>
+  <string name="onoff_voiceagent">टाइम रिपोर्टिंग</string>
+  <string name="onoff_voiceagent_summary">जब अलार्म बन्द हो जाता है तो टाइम रिपोर्ट करें</string>
+  <string name="ring_gently">हल्के से रिंग बजाएं</string>
+  <string name="edit_ringtone">रिंगटोन सम्पादित करें</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">वर्ल्ड क्लाक को सम्पादित करें</string>
+  <string name="menu_item_search_city">शामिल करें</string>
+  <string name="local_time">(स्थानीय)</string>
+  <string name="find_cities">नगरों को खोजें</string>
+  <string name="search_or_add_city">नगर की खोज करें अथवा शामिल करें</string>
+  <string name="edit_cities">सम्पादित करें</string>
+  <string name="clear_all">क्लीयर</string>
+  <string name="alarm_dir">अलार्म रिंग</string>
+  <string name="music_dir">संगीत</string>
+  <string name="city_found">नगर खोज लिया गया</string>
+  <string name="cities_found">नगरों को खोज लिया गया</string>
+  <string name="no_result_found">कोई परिणाम नहीं</string>
+  <!-- emily -->
+  <string name="set_time_title">समय तय करें</string>
+  <string name="week_days">सप्ताह के दिवस</string>
+  <string name="week_end">सप्ताहांत</string>
+  <string name="ring_gently_summary">अलार्म के वाल्यूम में धीरे-धीरे बढ़ोतरी होती है</string>
+  <string name="ring_none">कोई नहीं</string>
+  <string name="total_time">कुल समय</string>
+  <string name="current_lap">मौजूदा लैप</string>
+  <string name="by_day">दिन द्वारा</string>
+  <string name="never_alert">कभी भी चेतावनी न देने के लिए अलार्म सेट किया गया है।</string>
+  <!-- Widgets -->
+  <string name="paper_folding_widge">प्योर फ्रेश</string>
+  <string name="time_roller_widget">टाइम रोलर</string>
+  <string name="day_night_widget">सूर्य-चन्द्र</string>
+  <string name="rainbow_widget_label">इन्द्रधनुष</string>
+  <string name="zone_list_menu_sort_alphabetically">वर्णमाला के अनुसार छंटाई करें</string>
+  <string name="zone_list_menu_sort_by_timezone">टाइम ज़ोन के अनुसार छंटाई करें</string>
+  <string name="worldclock_settings">नगर को चुनें</string>
+  <!-- 20130830 -->
+  <string name="actiobar_more">अधिक</string>
+  <string name="actiobar_search">खोजें</string>
+  <string name="actionbar_add_city">नगर शामिल करें</string>
+  <!-- kim_bai -->
+  <string name="zone_picker">टाइम ज़ोन चुनें</string>
+  <string name="time_up_within">टाइम अप विदइन</string>
+  <string name="press_the_lap_button">प्रत्येक लैप के लिए सही समय रिकार्ड करने के लिए \"Lap\" बटन दबाएं</string>
+  <string name="press_the_start_button">स्टॉपवाच का चलना रोकने के लिए \"Start\" बटन दबाएं।</string>
+  <string name="alarm_alert_tip">कृपया स्नूज करने या रद्द करने के लिए स्लाइड करें</string>
+  <string name="today">आज</string>
+  <string name="earlier">पहले</string>
+  <string name="later">बाद में</string>
+  <string name="repeat_once">एक बार</string>
+  <string name="repeat_pre">दोहराने को निम्न में बदला गया</string>
+  <string name="select_all">सभी को चुनें</string>
+  <string name="weekly">साप्ताहिक</string>
+</resources>

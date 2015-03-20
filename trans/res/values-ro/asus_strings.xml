@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Time</string>
+  <string-array name="suggestion_string">
+    </string-array>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">Reluare</string>
+  <string name="timer_pause">Pauză</string>
+  <string name="dialog_title">Cronometru</string>
+  <string name="dialog_message">Timpul a expirat</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Anulare</string>
+  <string name="edit_alarm_dialog_title">Eliminare alarme</string>
+  <string name="edit_alarm_dialog_message">Eliminați alarmele selectate?</string>
+  <string name="alarm_switch">Activare alarmă</string>
+  <string name="alarm_time">Oră</string>
+  <string name="asus_alarm_repeat">Repetare</string>
+  <string name="alarm_ring">Ton de apel</string>
+  <string name="asus_alarm_vibrate">Vibraţii</string>
+  <string name="alarm_label">Etichetă</string>
+  <string name="onoff_voiceagent">Raportare oră</string>
+  <string name="onoff_voiceagent_summary">Se raportează ora când se declanșează alarma</string>
+  <string name="ring_gently">sonerie cu volum redus</string>
+  <string name="edit_ringtone">Editare ton de apel</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">Editare ceas internațional</string>
+  <string name="local_time">(Oră locală)</string>
+  <string name="find_cities">Găsire oraşe</string>
+  <string name="search_or_add_city">căutare sau adăugare oraș</string>
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">Editare oraşe</string>
+  <string name="clear_all">Ştergere</string>
+  <string name="alarm_dir">Ton alarmă</string>
+  <string name="music_dir">Muzică</string>
+  <string name="city_found">oraş găsit</string>
+  <string name="cities_found">oraşe găsite</string>
+  <string name="no_result_found">Niciun rezultat</string>
+  <string name="set_time_title">Setare oră</string>
+  <string name="week_days">Zile ale săptămânii</string>
+  <string name="week_end">Weekend-uri</string>
+  <string name="ring_gently_summary">Volumul alarmei creşte în timp</string>
+  <string name="ring_none">Fără</string>
+  <string name="paper_folding_widge">Pur şi proaspăt</string>
+  <string name="time_roller_widget">Time Roller</string>
+  <string name="day_night_widget">Soare lună</string>
+  <string name="rainbow_widget_label">Curcubeu</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Selectaţi un oraş</string>
+  <string name="actiobar_more">Mai multe</string>
+  <string name="actiobar_search">Căutare</string>
+  <string name="actionbar_add_city">Adăugare oraş</string>
+  <!-- emily -->
+  <string name="total_time">durată totală</string>
+  <string name="current_lap">tură curentă</string>
+  <string name="by_day">&amp;Icirc;n funcţie de zi</string>
+  <string name="never_alert">Alarma este setată să nu alerteze niciodată.</string>
+  <string name="zone_list_menu_sort_alphabetically">Sortare alfabetică</string>
+  <string name="zone_list_menu_sort_by_timezone">Sortare după fus orar</string>
+  <!-- kim_bai -->
+  <string name="zone_picker">Selectare fus orar</string>
+  <string name="time_up_within">Expirare timp &amp;icirc;n</string>
+  <string name="press_the_lap_button">Apăsaţi butonul \&amp;bdquo;Lap\&amp;rdquo; (Tură) pentru a &amp;icirc;nregistra cu precizie durata pentru fiecare tură.</string>
+  <string name="press_the_start_button">Apăsaţi butonul \&amp;bdquo;Start\&amp;rdquo; pentru a porni cronometrul.</string>
+  <string name="alarm_alert_tip">Glisaţi pentru a am&amp;acirc;na alarma sau pentru a o anula</string>
+  <string name="today">Astăzi</string>
+  <string name="earlier">Mai devreme</string>
+  <string name="later">Mai t&amp;acirc;rziu</string>
+  <string name="repeat_once">O dată</string>
+  <string name="repeat_pre">Repetarea a fost schimbată la</string>
+  <string name="select_all">Selectare toate</string>
+  <string name="weekly">Săptămânal</string>
+</resources>

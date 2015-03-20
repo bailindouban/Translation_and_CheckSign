@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+    <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Time</string>
+
+    <string-array name="suggestion_string"/>
+
+    <!-- waylen@asus.com_20130605 -->
+    <string name="timer_resume">再開</string>
+    <string name="timer_pause">一時停止</string>
+    <string name="dialog_title">タイマー</string>
+    <string name="dialog_message">時間切れ</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">キャンセル</string>
+    <string name="edit_alarm_dialog_title">アラームの削除</string>
+    <string name="edit_alarm_dialog_message">選択したアラームを削除しますか?</string>
+    <string name="alarm_switch">アラームをオンにする</string>
+    <string name="alarm_time">時刻</string>
+    <string name="asus_alarm_repeat">繰り返し</string>
+    <string name="alarm_ring">着信音</string>
+    <string name="asus_alarm_vibrate">振動</string>
+    <string name="alarm_label">ラベル</string>
+    <string name="onoff_voiceagent">報告する時間</string>
+    <string name="onoff_voiceagent_summary">アラームが止まったときの時間を報告します</string>
+    <string name="ring_gently">静かに鳴らす</string>
+    <string name="edit_ringtone">着信音の編修</string>
+    <!-- kim_bai -->
+    <string name="menu_item_edit_world_clock">ワールドクロックの編集</string>
+    <string name="local_time">(ローカル時刻)</string>
+    <string name="find_cities">都市を見つける</string>
+    <string name="search_or_add_city">都市の検索または追加</string>
+
+    <!-- waylen@asus.com 20130828 -->
+    <string name="edit_cities">都市の編集</string>
+    <string name="clear_all">消去</string>
+    <string name="alarm_dir">アラーム音</string>
+    <string name="music_dir">音楽</string>
+    <string name="city_found">検出された市</string>
+    <string name="cities_found">検出された市</string>
+    <string name="no_result_found">結果なし</string>
+    <string name="set_time_title">時刻の設定</string>
+    <string name="week_days">平日</string>
+    <string name="week_end">休日</string>
+    <string name="ring_gently_summary">アラーム音量は時間とともに大きくなります</string>
+    <string name="ring_none">なし</string>
+    <string name="paper_folding_widge">ピュアフレッシュ</string>
+    <string name="time_roller_widget">タイムローラー</string>
+    <string name="day_night_widget">サン－ムーン</string>
+    <string name="rainbow_widget_label">レインボウ</string>
+
+    <!-- 20130830 -->
+    <string name="worldclock_settings">市の選択</string>
+    <string name="actiobar_more">その他</string>
+    <string name="actiobar_search">検索</string>
+    <string name="actionbar_add_city">市の追加</string>
+    <!-- new translations 2014-3-13 -->
+    <string name="total_time">合計時間</string>
+    <string name="current_lap">現在のラップ</string>
+    <string name="by_day">曜日別</string>
+    <string name="never_alert">警報しないようにアラームが設定されています。</string>
+    <string name="zone_list_menu_sort_alphabetically">アルファベット順のソート</string>
+    <string name="zone_list_menu_sort_by_timezone">時間帯別のソート</string>
+    <string name="zone_picker">タイムゾーンの選択</string>
+    <string name="time_up_within">タイムアップ時間</string>
+    <string name="press_the_lap_button">「ラップ」ボタンを押し、ラップごとに正確な時間を記録します。</string>
+    <string name="press_the_start_button">「開始」ボタンを押し、ストップウォッチを実行します。</string>
+    <string name="alarm_alert_tip">スライドしてスヌーズまたはスヌーズ解除してください。</string>
+    <string name="today">今日</string>
+    <string name="earlier">前</string>
+    <string name="later">後</string>
+    <string name="repeat_once">1 回</string>
+    
+    <string name="repeat_pre">\u30ea\u30d4\u30fc\u30c8\u306f\u6b21\u306e\u3088\u3046\u306b\u5909\u66f4\u3055\u308c\u307e\u3057\u305f:  </string>
+    <string name="select_all">\u5168\u3066\u9078\u629e</string>
+    <string name="weekly">\u6bce\u9031</string>
+	
+</resources>

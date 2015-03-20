@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- emily,add -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Heure</string>
+  <string name="onoff_voiceagent">Rapport d\'heure</string>
+  <string name="onoff_voiceagent_summary">Rapporte l\'heure de déclenchement d\'alarme.</string>
+  <string name="timer_resume">Reprendre</string>
+  <string name="timer_pause">Pause</string>
+  <string name="dialog_title">Minuteur</string>
+  <string name="dialog_message">Temps écoulé</string>
+  <string name="dialog_ok">Ok</string>
+  <string name="dialog_cancel">Annuler</string>
+  <string name="edit_alarm_dialog_title">Supprimer alarmes</string>
+  <string name="edit_alarm_dialog_message">Supprimer les alarmes sélectionnées ?</string>
+  <string name="alarm_switch">Activer l\'alarme</string>
+  <string name="alarm_time">Heure</string>
+  <string name="asus_alarm_repeat">Répéter</string>
+  <string name="alarm_ring">Sonnerie</string>
+  <string name="asus_alarm_vibrate">Vibration</string>
+  <string name="alarm_label">Label</string>
+  <string name="menu_item_edit_world_clock">Éditer l\'horloge universelle</string>
+  <string name="local_time">(Heure locale)</string>
+  <string name="find_cities">Trouver villes</string>
+  <string name="search_or_add_city">Rechercher ou ajouter ville</string>
+  <string name="edit_ringtone">Modifier sonnerie</string>
+  <string name="ring_gently">Sonnerie faible</string>
+  <!-- end -->
+  <!-- waylen@asus.com 20130828 -->
+  <string name="edit_cities">Modifier villes</string>
+  <string name="clear_all">Effacer</string>
+  <string name="alarm_dir">Sonnerie d\'alarme</string>
+  <string name="music_dir">Musique</string>
+  <string name="city_found">ville trouvée</string>
+  <string name="cities_found">villes trouvées</string>
+  <string name="no_result_found">Aucun résultat</string>
+  <string name="set_time_title">Régler l\'heure</string>
+  <string name="week_days">Jours de semaine</string>
+  <string name="week_end">Weekends</string>
+  <string name="ring_gently_summary">Le volume de l\'alarme augmente au fil du temps</string>
+  <string name="ring_none">Aucun</string>
+  <string name="paper_folding_widge">Frais et pur</string>
+  <string name="time_roller_widget">Temps rouleau</string>
+  <string name="day_night_widget">Soleil lune</string>
+  <string name="rainbow_widget_label">Arc en ciel</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Sélectionner une ville</string>
+  <string name="actiobar_more">Plus</string>
+  <string name="actiobar_search">Rechercher</string>
+  <string name="actionbar_add_city">Ajouter ville</string>
+  <!-- emily -->
+  <string name="total_time">durée totale</string>
+  <string name="current_lap">tour actuel</string>
+  <string name="by_day">Par jour</string>
+  <string name="never_alert">Alarme définie pour ne jamais se déclencher.</string>
+  <string name="zone_list_menu_sort_alphabetically">Trier par ordre alphabétique</string>
+  <string name="zone_list_menu_sort_by_timezone">Trier par fuseau horaire</string>
+  <!-- kim_bai -->
+  <string name="zone_picker">Sélectionner fuseau horaire</string>
+  <string name="time_up_within">Vérifier durée dans</string>
+  <string name="press_the_lap_button">Appuyez sur le bouton « Lap » pour enregistrer la durée de chaque tour avec précision.</string>
+  <string name="press_the_start_button">Appuyez sur le bouton « Start » pour lancer le chronomètre.</string>
+  <string name="alarm_alert_tip">Veuillez glisser sur Snooze (Répéter) ou Dismiss (Annuler)</string>
+  <string name="today">Aujourd’hui</string>
+  <string name="earlier">Plus tôt</string>
+  <string name="later">Plus tard</string>
+  <string name="repeat_once">Une fois</string>
+  <string name="repeat_pre">Nouvelle fr\u00e9quence de r\u00e9p\u00e9tition :  </string>
+  <string name="select_all">S\u00e9lectionner tout</string>
+  <string name="weekly">Hebdomadaire</string>
+</resources>

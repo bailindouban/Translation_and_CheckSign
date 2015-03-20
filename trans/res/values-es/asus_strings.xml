@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Hora</string>
+  <string-array name="suggestion_string">
+    </string-array>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">Reanudar</string>
+  <string name="timer_pause">Pausar</string>
+  <string name="dialog_title">Temporizador</string>
+  <string name="dialog_message">Tiempo agotado</string>
+  <string name="dialog_ok">Aceptar</string>
+  <string name="dialog_cancel">Cancelar</string>
+  <string name="edit_alarm_dialog_title">Eliminar alarmas</string>
+  <string name="edit_alarm_dialog_message">¿Desea eliminar las alarmas seleccionadas?</string>
+  <string name="alarm_switch">Activar alarma</string>
+  <string name="alarm_time">Hora</string>
+  <string name="asus_alarm_repeat">Repetir</string>
+  <string name="alarm_ring">Tono de llamada</string>
+  <string name="asus_alarm_vibrate">Vibrar</string>
+  <string name="alarm_label">Etiqueta</string>
+  <string name="onoff_voiceagent">Presentación de informes de horas</string>
+  <string name="onoff_voiceagent_summary">Indicar la hora de desactivación de la alarma</string>
+  <string name="ring_gently">tono de llamada suave</string>
+  <string name="edit_ringtone">Editar tono de llamada</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">Editar reloj internacional</string>
+  <string name="local_time">(Hora local)</string>
+  <string name="find_cities">Buscar ciudades</string>
+  <string name="search_or_add_city">buscar o agregar ciudad</string>
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">Editar ciudades</string>
+  <string name="clear_all">Borrar</string>
+  <string name="alarm_dir">Timbre de alarma</string>
+  <string name="music_dir">Música</string>
+  <string name="city_found">cudad encontrada</string>
+  <string name="cities_found">cudades encontradas</string>
+  <string name="no_result_found">Sin resultado</string>
+  <string name="set_time_title">Establecer hora</string>
+  <string name="week_days">Entre semana</string>
+  <string name="week_end">Fines de semana</string>
+  <string name="ring_gently_summary">El volumen de alarma aumena con el tiempo</string>
+  <string name="ring_none">Ninguno</string>
+  <string name="paper_folding_widge">Frescor puro</string>
+  <string name="time_roller_widget">Rueda del tiempo</string>
+  <string name="day_night_widget">Luna y sol</string>
+  <string name="rainbow_widget_label">Arcoiris</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Seleccionar una ciudad</string>
+  <string name="actiobar_more">Más</string>
+  <string name="actiobar_search">Buscar</string>
+  <string name="actionbar_add_city">Agregar ciudad</string>
+  <!--new translations 2014-3-13 -->
+  <string name="total_time">tiempo total</string>
+  <string name="current_lap">vuelta actual</string>
+  <string name="by_day">Por día</string>
+  <string name="never_alert">Alarma establecida para no alertar nunca.</string>
+  <string name="zone_list_menu_sort_alphabetically">Ordenar alfabéticamente</string>
+  <string name="zone_list_menu_sort_by_timezone">Ordenar por zona horaria</string>
+  <string name="zone_picker">Seleccionar zona horaria</string>
+  <string name="time_up_within">Tiempo agotado en</string>
+  <string name="press_the_lap_button">Presione el botón \"Vuelta\" para registrar el tiempo preciso para cada vuelta.</string>
+  <string name="press_the_start_button">Presione el botón \"Iniciar\" para activar el cronómetro.</string>
+  <string name="alarm_alert_tip">Deslice para Posponer o Descartar</string>
+  <string name="today">Hoy</string>
+  <string name="earlier">Más temprano</string>
+  <string name="later">Más tarde</string>
+  <string name="repeat_once">Una vez</string>
+  <string name="repeat_pre">La repetición se ha cambiado a</string>
+  <string name="select_all">Seleccionar todo</string>
+  <string name="weekly">Semanalmente</string>
+</resources>

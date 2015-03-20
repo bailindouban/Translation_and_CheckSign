@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_list_hours_label"></string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="timer_list_minutes_label"></string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="timer_list_seconds_label"></string>
+</resources>

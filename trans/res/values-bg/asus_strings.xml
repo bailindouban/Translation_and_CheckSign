@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--      Copyright (C) 2007 The Android Open Source Project       Licensed under the Apache License, Version 2.0 (the "License");      you may not use this file except in compliance with the License.      You may obtain a copy of the License at            http://www.apache.org/licenses/LICENSE-2.0       Unless required by applicable law or agreed to in writing, software      distributed under the License is distributed on an "AS IS" BASIS,      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.      See the License for the specific language governing permissions and      limitations under the License. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Час</string>
+  <string-array name="suggestion_string"/>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">Възобновяване</string>
+  <string name="timer_pause">Пауза</string>
+  <string name="dialog_title">Таймер</string>
+  <string name="dialog_message">Времето изтече</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Отказ</string>
+  <string name="edit_alarm_dialog_title">Премахване на аларми</string>
+  <string name="edit_alarm_dialog_message">Премахване на аларма?</string>
+  <string name="alarm_switch">Включване на аларма</string>
+  <string name="alarm_time">Час</string>
+  <string name="asus_alarm_repeat">Повтори</string>
+  <string name="alarm_ring">Мелодия на звънене</string>
+  <string name="asus_alarm_vibrate">Вибрация</string>
+  <string name="alarm_label">Етикет</string>
+  <string name="onoff_voiceagent">Доклад за час</string>
+  <string name="onoff_voiceagent_summary">Докладване на часа, когато алармата се изключва</string>
+  <string name="ring_gently">Нежно звънене</string>
+  <string name="edit_ringtone">Редактирай мелодия</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">Редактиране на световен часовник</string>
+  <string name="menu_item_search_city">Добавяне</string>
+  <string name="local_time">(локално)</string>
+  <string name="find_cities">Открий градове</string>
+  <string name="search_or_add_city">Търсене или добавяне на град</string>
+  <string name="edit_cities">Редактиране</string>
+  <string name="clear_all">Изчисти</string>
+  <string name="alarm_dir">Мелодия на аларма</string>
+  <string name="music_dir">Музика</string>
+  <string name="city_found">намерен град</string>
+  <string name="cities_found">намерени градове</string>
+  <string name="no_result_found">Няма резултати</string>
+  <!-- emily -->
+  <string name="set_time_title">Задаване на час</string>
+  <string name="week_days">Дни от седмицата</string>
+  <string name="week_end">Уикенди</string>
+  <string name="ring_gently_summary">Силата на звука на алармата се увеличава с времето</string>
+  <string name="ring_none">Няма</string>
+  <string name="total_time">общо време</string>
+  <string name="current_lap">текуща обиколка</string>
+  <string name="by_day">По дни</string>
+  <string name="never_alert">Алармата е зададена никога да не известява.</string>
+  <!-- Widgets -->
+  <string name="paper_folding_widge">Pure Fresh</string>
+  <string name="time_roller_widget">Time Roller</string>
+  <string name="day_night_widget">Sun-Moon</string>
+  <string name="rainbow_widget_label">Rainbow</string>
+  <string name="zone_list_menu_sort_alphabetically">Сортиране по азбучен ред</string>
+  <string name="zone_list_menu_sort_by_timezone">Сортиране по часова зона</string>
+  <string name="worldclock_settings">Избор на град</string>
+  <!-- 20130830 -->
+  <string name="actiobar_more">Още</string>
+  <string name="actiobar_search">Търсене</string>
+  <string name="actionbar_add_city">Добавяне на град</string>
+  <!-- kim_bai -->
+  <string name="zone_picker">Избор на часова зона</string>
+  <string name="time_up_within">Изтичане на времето след</string>
+  <string name="press_the_lap_button">Натиснете бутона \"Обиколка\", за да запишете точното време за всяка обиколка.</string>
+  <string name="press_the_start_button">Натиснете бутона \"Старт\", за да стартирате хронометъра.</string>
+  <string name="alarm_alert_tip">Плъзнете на Отложи или Прекрати</string>
+  <string name="today">Днес</string>
+  <string name="earlier">По-рано</string>
+  <string name="later">По-късно</string>
+  <string name="repeat_once">Веднъж</string>
+  <string name="repeat_pre">Repeat (Повторение) е променено на</string>
+  <string name="select_all">Select all (Избери всички)</string>
+  <string name="weekly">Ежеседмично</string>
+</resources>

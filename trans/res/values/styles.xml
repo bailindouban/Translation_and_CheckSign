@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="DeskClockNoActionBar" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.DeviceDefault.PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@android:style/Widget.DeviceDefault.ListView.DropDown</item>
+        <item name="android:itemTextAppearance">@style/DropDownItemLight</item>
+    </style>
+
+    <style name="DeskClockTabStyle" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:paddingLeft">@dimen/actionbar_tab_padding</item>
+        <item name="android:paddingRight">@dimen/actionbar_tab_padding</item>
+        <item name="android:background">@drawable/item_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DeskClockTabBarStyle" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:background">@drawable/header_bg</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:dividerPadding">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DeskClockBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/header_bg_bar</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+        <item name="android:displayOptions"></item>
+    </style>
+
+    <style name="DeskClockDropDownListView" parent="@android:style/Widget.DeviceDefault.ListView.DropDown">
+        <item name="android:listSelector">@drawable/item_background</item>
+    </style>
+
+    <style name="SettingsTheme" parent="android:Theme.DeviceDefault">
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBar</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:selectableItemBackground">@drawable/btn_transparent_bg</item>
+    </style>
+
+    <style name="SettingsTheme.ActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:titleTextStyle">@style/SettingsTheme.TextAppearance.ActionBar.Title</item>
+        <item name="android:displayOptions">useLogo|showTitle</item>
+        <item name="android:background">@drawable/ab_hairline</item>
+    </style>
+
+    <style name="SettingsTheme.TextAppearance.ActionBar.Title" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/actionbar_title_font_size</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="SetAlarmTheme" parent="android:Theme.DeviceDefault.DialogWhenLarge" />
+
+    <style name="AlarmAlertFullScreenWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <!--
+         NOTE: This must be a fullscreen theme, or else the fullscreen alarm will
+         be unable to turn the screen on.
+    -->
+    <style name="AlarmAlertFullScreenTheme" parent="android:Theme.DeviceDefault.Wallpaper.NoTitleBar">
+        <item name="android:windowTitleStyle">@style/AlarmAlertFullScreenWindowTitle</item>
+    </style>
+
+    <style name="ScreensaverActivityTheme" parent="android:Theme.DeviceDefault.Wallpaper.NoTitleBar" />
+
+    <style name="medium_bold">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="widget_medium_bold" parent="medium_bold">
+        <item name="android:textSize">@dimen/widget_medium_font_size</item>
+    </style>
+
+    <style name="medium_light">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="widget_medium_light" parent="medium_light">
+        <item name="android:textSize">@dimen/widget_medium_font_size</item>
+    </style>
+
+    <style name="label">
+        <item name="android:textSize">@dimen/label_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    
+    <style name="alarm_alert_label_text">
+        <item name="android:fontFamily">Roboto regular</item>
+        <item name="android:textSize">@dimen/alarm_alert_label_font_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/alarm_alert_white</item>
+    </style>
+
+    <style name="big_bold">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="widget_big_bold" parent="big_bold">
+        <item name="android:textSize">@dimen/widget_big_font_size</item>
+    </style>
+
+    <style name="big_thin">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="widget_big_thin" parent="big_thin">
+        <item name="android:textSize">@dimen/widget_big_font_size</item>
+    </style>
+
+    <style name="alarm_label">
+        <item name="android:textSize">@dimen/alarm_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    
+    <style name="body">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textSize">@dimen/button_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="dialog_button">
+        <item name="android:textSize">@dimen/dialog_button_font_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="dialpad">
+        <item name="android:textSize">@dimen/dialpad_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@drawable/timer_keys_color_selector</item>
+        <item name="android:fontFamily">Roboto</item>
+    </style>
+
+    <style name="dialpad_ampm" parent="dialpad">
+        <item name="android:textSize">@dimen/dialpad_font_size_ampm</item>
+    </style>
+
+    <style name="city_name">
+        <item name="android:textSize">@dimen/city_name_font_size</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="city_local" parent="city_name">
+        <item name="android:textSize">@dimen/city_local_font_size</item>
+    </style>
+
+    <style name="city_time" parent="city_name">
+        <item name="android:textSize">@dimen/city_time_font_size</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Status Bar Styles -->
+    <style name="TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <!-- Notification content styles -->
+    <style name="TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_text_size</item>
+        <item name="android:textColor">#ccc</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/notification_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToastBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/panel_undo_holo</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:alpha">0</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- kim_bai -->
+    <style name="day_night_widget_time">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="time_roller_widget_time">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="rainbow_widget_alarm_time">
+        <item name="android:textSize">11dp</item>
+        <item name="android:textColor">#363636</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="paper_folding_widget_alarm_time">
+        <item name="android:textSize">11dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- emily,add -->
+    <style name="world_clock_time">
+        <item name="android:textSize">@dimen/world_clock_time_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="world_clock_time_ampm" parent="world_clock_time">
+        <item name="android:textSize">@dimen/world_clock_time_ampm_size</item>
+    </style>
+
+    <style name="world_clock_time_country" parent="world_clock_time">
+        <item name="android:textSize">@dimen/world_clock_time_ampm_size</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="stopwatch_hint">
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textSize">@dimen/stopwatch_hint_textsize</item>
+        <item name="android:maxWidth">@dimen/stopwatch_hint_maxwidth</item>
+        <item name="android:alpha">0.67</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#36444d</item>
+    </style>
+
+    <style name="stopwatch_bottom_btn">
+        <item name="android:textSize">@dimen/stopwatch_bottom_btn_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="alarm_week_date">
+        <item name="android:textSize">@dimen/alarm_am_pm_size</item>
+        <item name="android:textColor">#7a7a7a</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <!-- waylen_wang@asus.com start -->
+    <style name="timerbutton">
+        <item name="android:textSize">@dimen/stopwatch_bottom_btn_size</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/stopwatch_bt_green_bg</item>
+        <item name="android:minWidth">116dp</item>
+        <item name="android:maxWidth">147dp</item>
+    </style>
+
+    <style name="listsyle" parent="@android:style/Widget.DeviceDefault.ListView"></style>
+
+    <style name="DropDownItemLight">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="alarm_alert_time">
+        <item name="android:textSize">@dimen/alarm_alert_time_font_size</item>
+        <item name="android:fontFamily">Roboto Light</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:textColor">@color/alarm_alert_time_white</item>
+    </style>
+
+    <style name="alarm_alert_time_ampm" parent="alarm_alert_time">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textSize">@dimen/alarm_clock_time_ampm_size</item>
+        <item name="android:textColor">@color/alarm_alert_white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="alarm_alert_tip">
+        <item name="android:textSize">@dimen/alarm_alert_tip_font_size</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textColor">@color/clock_white</item>
+        <item name="android:alpha">0.5</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <!-- waylen_wang@asus.com end -->
+
+    <style name="DeskClockBaseStyle" parent="android:Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/theme_color</item>
+    </style>
+
+    <!-- jacklee_li@asus.com -->
+    <style name="stop_clock_count">
+        <item name="android:textSize">@dimen/stop_clock_count_textsize</item>
+        <item name="android:textColor">#f6f6f6</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="stop_watch_lap_total">
+        <item name="android:textSize">@dimen/stopwatch_lap_total_textsize</item>
+        <item name="android:textColor">#888888</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="stop_watch_lap_time" parent="stop_watch_lap_total">
+        <item name="android:textSize">@dimen/stopwatch_lap_time_textsize</item>
+        <item name="android:textColor">#3d4146</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="alarm_clock_setting_time">
+        <item name="android:textSize">@dimen/alarm_list_date_textsize</item>
+        <item name="android:textColor">#3d4146</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    
+    <style name="alarm_clock_tag" parent="alarm_clock_setting_time">
+        <item name="android:textSize">@dimen/alarm_clock_tag_textsize</item>
+        <item name="android:textColor">@color/alarm_clock_tag_textcolor</item>
+    </style>
+
+    <style name="alarm_clock_days_in_week" parent="alarm_clock_setting_time">
+        <item name="android:textSize">@dimen/alarm_clock_days_in_week_textsize</item>
+        <item name="android:textColor">@color/alarm_clock_days_in_week_textcolor</item>
+    </style>
+
+    <style name="timer_number_button">
+        <item name="android:textSize">@dimen/timer_number_textsize</item>
+        <item name="android:textColor">#464646</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:background">@drawable/asus_button_dialer_bg</item>
+    </style>
+
+    <style name="timer_clear_button" parent="timer_number_button">
+        <item name="android:textSize">@dimen/timer_clear_button_textsize</item>
+    </style>
+
+    <style name="timer_time_up_button">
+        <item name="android:textSize">@dimen/timer_time_up_button_textsize</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:background">@drawable/timer_time_up_ok_btn_background</item>
+    </style>
+
+    <style name="timer_time_up_message">
+        <item name="android:textSize">32dp</item>
+        <item name="android:textColor">#ef4747</item>
+        <item name="android:fontFamily">Roboto</item>
+    </style>
+
+    <style name="time_up_within_label">
+        <item name="android:textSize">@dimen/timer_time_up_within</item>
+        <item name="android:textColor">#828282</item>
+        <item name="android:fontFamily">Roboto Light</item>
+    </style>
+
+    <style name="alarm_list_switch">
+        <item name="android:textSize">@dimen/alarm_switch_textsize</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+    </style>
+
+    <!-- kim_bai -->
+
+    <!-- World Clock Item -->
+    <!-- World Clock Item - Time -->
+    <style name="worldclock_time">
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textColor">#505050</item>
+        <item name="android:textSize">@dimen/worldclock_time_textsize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="worldclock_time_ampm" parent="worldclock_time">
+        <item name="android:textSize">@dimen/worldclock_time_ampm_textsize</item>
+    </style>
+
+    <!-- World Clock Item - Day -->
+    <style name="worldclock_day" parent="worldclock_time">
+        <item name="android:textSize">@dimen/worldclock_day_textsize</item>
+    </style>
+
+    <!-- World Clock Item - City -->
+    <style name="worldclock_city_analog">
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textColor">#5b5b5b</item>
+        <item name="android:textSize">@dimen/worldclock_city_textsize_analog</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="worldclock_city_digital" parent="worldclock_city_analog">
+        <item name="android:textSize">@dimen/worldclock_city_textsize_digital</item>
+    </style>
+
+    <!-- World Clock Item - Post Hour -->
+    <style name="worldclock_postHour" parent="worldclock_city_analog">
+        <item name="android:textColor">#8d8d8d</item>
+        <item name="android:textSize">@dimen/worldclock_postHour_textsize</item>
+    </style>
+
+    <!-- Alarm -->
+    <style name="alarm_city">
+        <item name="android:textColor">#00adb3</item>
+        <item name="android:textSize">@dimen/alarm_clock_city_textsize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- Stopwatch -->
+    <style name="stopwatch_last_laptime">
+        <item name="android:textSize">@dimen/stopwatch_last_laptime_textsize</item>
+        <item name="android:textColor">#828282</item>
+    </style>
+
+    <style name="timer_item_label">
+        <item name="android:textSize">@dimen/timer_item_label_textsize</item>
+        <item name="android:maxWidth">@dimen/timer_label_text_width</item>
+        <item name="android:textColor">#4d4d4d</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="timer_label">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#ff4e00</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="repeat_day">
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <!-- emily,add -->
+    <style name="stopwatch_laptime_label">
+        <item name="android:textSize">@dimen/stopwatch_laptime_label_textsize</item>
+        <item name="android:textColor">#828282</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:gravity">left</item>
+    </style>
+    
+    <style name="SelectAllCheckStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:paddingLeft">@dimen/alarm_edit_item_time_left_margin</item>
+    </style>
+
+</resources>

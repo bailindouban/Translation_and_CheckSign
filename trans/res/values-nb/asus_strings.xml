@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- emily,add -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">tid</string>
+  <string name="onoff_voiceagent">Tidsrapportering</string>
+  <string name="onoff_voiceagent_summary">Rapporter tidspunktet når alarmen utløses</string>
+  <string name="timer_resume">Fortsett</string>
+  <string name="timer_pause">Pause</string>
+  <string name="dialog_title">Tidsur</string>
+  <string name="dialog_message">Tiden er ute</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Avbryt</string>
+  <string name="edit_alarm_dialog_title">Fjern alarmer</string>
+  <string name="edit_alarm_dialog_message">Fjerne valgte alarmer?</string>
+  <string name="alarm_switch">Slå på alarm</string>
+  <string name="alarm_time">Tidspunkt</string>
+  <string name="asus_alarm_repeat">Gjenta</string>
+  <string name="alarm_ring">Ringetone</string>
+  <string name="asus_alarm_vibrate">Vibrasjon</string>
+  <string name="alarm_label">Etikett</string>
+  <string name="menu_item_edit_world_clock">Rediger verdensklokke</string>
+  <string name="local_time">(Lokal tid)</string>
+  <string name="find_cities">Finn byer</string>
+  <string name="search_or_add_city">Søk eller tilføy by</string>
+  <string name="edit_ringtone">Rediger ringetone</string>
+  <string name="ring_gently">Ring varsomt</string>
+  <!-- end -->
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">Rediger byer</string>
+  <string name="clear_all">Tøm</string>
+  <string name="alarm_dir">Alarmring</string>
+  <string name="music_dir">Musikk</string>
+  <string name="city_found">by funnet</string>
+  <string name="cities_found">byer funnet</string>
+  <string name="no_result_found">Ingen resultater</string>
+  <string name="set_time_title">Angi tid</string>
+  <string name="week_days">Hverdager</string>
+  <string name="week_end">Helger</string>
+  <string name="ring_gently_summary">Alarmvolum øker over tid</string>
+  <string name="ring_none">Ingen</string>
+  <string name="paper_folding_widge">Ren frisk</string>
+  <string name="time_roller_widget">Tid ruller</string>
+  <string name="day_night_widget">Sol måne</string>
+  <string name="rainbow_widget_label">Regnbue</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Velg en by</string>
+  <string name="actiobar_more">Mer</string>
+  <string name="actiobar_search">Søk</string>
+  <string name="actionbar_add_city">Legg til by</string>
+  <!--new translations 2014-3-13 -->
+  <string name="total_time">total tid</string>
+  <string name="current_lap">gjeldende runde</string>
+  <string name="by_day">Etter dag</string>
+  <string name="never_alert">Alarm satt til å aldri varsle.</string>
+  <string name="zone_list_menu_sort_alphabetically">Sorter alfabetisk</string>
+  <string name="zone_list_menu_sort_by_timezone">Sorter etter tidssone</string>
+  <string name="zone_picker">Velg tidssone</string>
+  <string name="time_up_within">Tid opp innen</string>
+  <string name="press_the_lap_button">Trykk på \"Runde\"-knappen for å spille inn den nøyaktige tiden for hver runde.</string>
+  <string name="press_the_start_button">Trykk på \"Start\"-knappen for å starte stoppeklokken.</string>
+  <string name="alarm_alert_tip">Skyv for å slumre eller å avbryte</string>
+  <string name="today">I dag</string>
+  <string name="earlier">Tidligere</string>
+  <string name="later">Senere</string>
+  <string name="repeat_once">Én gang</string>
+  <string name="repeat_pre">Gjentakelse endret til </string>
+  <string name="select_all">Velg alle</string>
+  <string name="weekly">Ukentlig</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+
+<!--
+     These resources are around just to allow their values to be customized
+     for different hardware and product builds.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- worldclock -->
+    <dimen name="worldclock_item_margin_side_analog">28dp</dimen>
+    <dimen name="worldclock_item_margin_side_digital">28dp</dimen>
+    <dimen name="worldclock_grid_columnWidth">170dp</dimen>
+    <dimen name="worldclock_item_horizontal">10dp</dimen>
+    <dimen name="mapview_padding_left">40dp</dimen>
+
+    <!-- timer list -->
+    <dimen name="timer_time_up_text_margin">263dp</dimen>
+    <dimen name="timer_time_list_font_size">93dp</dimen>
+    <dimen name="timer_delete_right_margin">56dp</dimen>
+    <dimen name="timer_button_width">179dp</dimen>
+
+    <!-- Space -->
+    <dimen name="text_space_stopwatch">36dp</dimen>
+    <dimen name="text_space_timer">36dp</dimen>
+    <dimen name="text_space_timer_list">30dp</dimen>
+    <dimen name="text_space_timer_up">36dp</dimen>
+    <dimen name="punctuation_space_stopwatch">11dp</dimen>
+    <dimen name="punctuation_space_timer">11dp</dimen>
+    <dimen name="punctuation_space_timer_list">12dp</dimen>
+    <dimen name="punctuation_space_timer_up">11dp</dimen>
+
+</resources>

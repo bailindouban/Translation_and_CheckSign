@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+if [ -z "$1" ]; then
+    echo "Sorry, the input format is: $ junzheng_team_tool_translate old_res_path new_res_path"
+elif [ -z "$2" ]; then
+    echo "Sorry, the input format is: $ junzheng_team_tool_translate old_res_path new_res_path"
+else
+    perl ~/Desktop/kim/junzheng_team_tools/trans/merge_trans.pl $1 $2
+fi

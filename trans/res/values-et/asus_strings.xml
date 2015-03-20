@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+  <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Time</string>
+  <string-array name="suggestion_string">
+    </string-array>
+  <!-- waylen@asus.com_20130605 -->
+  <string name="timer_resume">Jätka</string>
+  <string name="timer_pause">Paus</string>
+  <string name="dialog_title">Taimer</string>
+  <string name="dialog_message">Aeg on läbi</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Tühista</string>
+  <string name="edit_alarm_dialog_title">Eemalda äratused</string>
+  <string name="edit_alarm_dialog_message">Soovite valitud äratused eemaldada?</string>
+  <string name="alarm_switch">Lülita äratus sisse</string>
+  <string name="alarm_time">Kellaaeg</string>
+  <string name="asus_alarm_repeat">Korda</string>
+  <string name="alarm_ring">Helin</string>
+  <string name="asus_alarm_vibrate">Värin</string>
+  <string name="alarm_label">Silt</string>
+  <string name="onoff_voiceagent">Kellaaja teade</string>
+  <string name="onoff_voiceagent_summary">Teata aeg, millal meeldetuletus välja lülitatakse</string>
+  <string name="ring_gently">vaikne helin</string>
+  <string name="edit_ringtone">Muuda helinat</string>
+  <!-- kim_bai -->
+  <string name="menu_item_edit_world_clock">Korrigeeri maailmakella</string>
+  <string name="local_time">(Kohalik aeg)</string>
+  <string name="find_cities">Otsi linnu</string>
+  <string name="search_or_add_city">otsi või lisa linn</string>
+  <!--waylen@asus.com 20130828-->
+  <string name="edit_cities">Muuda linnu</string>
+  <string name="clear_all">Tühjenda</string>
+  <string name="alarm_dir">Äratuse helin</string>
+  <string name="music_dir">Muusika</string>
+  <string name="city_found">linn leitud</string>
+  <string name="cities_found">linna leitud</string>
+  <string name="no_result_found">Tulemusi pole</string>
+  <string name="set_time_title">Määra kellaaeg</string>
+  <string name="week_days">Argipäevad</string>
+  <string name="week_end">Nädalalõpud</string>
+  <string name="ring_gently_summary">Pikkamisi tugevnev äratuse helin</string>
+  <string name="ring_none">Puudub</string>
+  <string name="paper_folding_widge">Puhas ja värske</string>
+  <string name="time_roller_widget">Kell</string>
+  <string name="day_night_widget">Päike ja kuu</string>
+  <string name="rainbow_widget_label">Vikerkaar</string>
+  <!-- 20130830 -->
+  <string name="worldclock_settings">Vali linn</string>
+  <string name="actiobar_more">Veel</string>
+  <string name="actiobar_search">Otsing</string>
+  <string name="actionbar_add_city">Lisa linn</string>
+  <!--new translations 2014-3-13 -->
+  <string name="total_time">aeg kokku</string>
+  <string name="current_lap">praegune ring</string>
+  <string name="by_day">Päeva järgi</string>
+  <string name="never_alert">Meeldetuletus on välja lülitatud.</string>
+  <string name="zone_list_menu_sort_alphabetically">Sortige tähestikuliselt</string>
+  <string name="zone_list_menu_sort_by_timezone">Sordi ajatsooni järgi</string>
+  <string name="zone_picker">Valige ajavöönd</string>
+  <string name="time_up_within">Aeg lõpeb, kui möödub</string>
+  <string name="press_the_lap_button">Vajutage \"Ring\", et salvestada iga ringi täpne aeg.</string>
+  <string name="press_the_start_button">Vajutage \"Start\", et stopper käivitada.</string>
+  <string name="alarm_alert_tip">Valige Vaigista või Tühista</string>
+  <string name="today">Täna</string>
+  <string name="earlier">Varem</string>
+  <string name="later">Hiljem</string>
+  <string name="repeat_once">Üks kord</string>
+  <string name="repeat_pre">Kordamine on muudetud ... </string>
+  <string name="select_all">Vali kõik</string>
+  <string name="weekly">Iganädalane</string>
+</resources>

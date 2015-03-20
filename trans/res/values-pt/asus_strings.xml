@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Label for Digital clock gadget, shown in list of all gadgets -->
+    <string name="asus_digital_gadget" description="Label for ASUS Time gadget, shown in list of all gadgets" maxwidth="">Time</string>
+    <string-array name="suggestion_string">
+    </string-array>
+    
+    <!-- waylen@asus.com_20130605 -->
+    <string name="timer_resume">Retomar</string>
+    <string name="timer_pause">Pausa</string>
+    <string name="dialog_title">Temporizador</string>
+    <string name="dialog_message">Tempo esgotado</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="edit_alarm_dialog_title">Remover alarmes</string>
+    <string name="edit_alarm_dialog_message">Remover alarmes seleccionados?</string>
+    <string name="alarm_switch">Activar alarme</string>
+    <string name="alarm_time">Hora</string>
+    <string name="asus_alarm_repeat">Repetir</string>
+    <string name="alarm_ring">Toque</string>
+    <string name="asus_alarm_vibrate">Vibrar</string>
+    <string name="alarm_label">Nome</string>
+    <string name="onoff_voiceagent">Informação da hora</string>
+    <string name="onoff_voiceagent_summary">Informar a hora quando o alarme tocar</string>
+    <string name="ring_gently">tocar suavemente</string>
+    <string name="edit_ringtone">Editar toque</string>    
+    <!-- kim_bai -->
+    <string name="menu_item_edit_world_clock">Editar relógio universal</string>
+    <string name="local_time">(Hora local)</string>
+    <string name="find_cities">Procurar cidades</string>
+    <string name="search_or_add_city">procurar ou adicionar cidade</string>
+    
+     <!--waylen@asus.com 20130828-->
+    <string name="edit_cities">Editar cidades</string>    
+    <string name="clear_all">Limpar</string>
+    <string name="alarm_dir">Toque de alarme</string>
+    <string name="music_dir">Música</string>
+    <string name="city_found">cidade encontrada</string>
+    <string name="cities_found">cidades encontradas</string>
+    <string name="no_result_found">Nenhum resultado</string>
+    <string name="set_time_title">Definir hora</string>        
+    <string name="week_days">Dias úteis</string>
+    <string name="week_end">Fins de semana</string>
+    <string name="ring_gently_summary">O volume do alarme aumenta com o passar do tempo</string>
+    <string name="ring_none">Nenhum</string>
+    <string name="paper_folding_widge">Fresco puro</string>
+    <string name="time_roller_widget">Rolo de tempo</string>
+    <string name="day_night_widget">Sol lua</string>
+    <string name="rainbow_widget_label">Arco-íris</string> 
+    
+        <!-- 20130830 -->
+    <string name="worldclock_settings">Selecionar uma cidade</string>
+    <string name="actiobar_more">Mais</string>
+    <string name="actiobar_search">Procurar</string>
+    <string name="actionbar_add_city">Adicionar cidade</string>
+</resources>

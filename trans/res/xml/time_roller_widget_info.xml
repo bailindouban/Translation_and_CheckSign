@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.asus.deskclock.widget.timeroller.TimeRollerWidgetConfigure"
+    android:initialLayout="@layout/time_roller_widget"
+    android:minHeight="@dimen/widget_min_size"
+    android:minWidth="@dimen/widget_min_size"
+    android:previewImage="@drawable/clock_widget_time_roller_preview"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen" />
